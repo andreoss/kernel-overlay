@@ -1,0 +1,58 @@
+[
+   {
+      "category" : "mainline",
+      "checksum" : "9fb1fa648c615089a97c02a526aaff3821b1ff92a918229b4d01d5a8760be1e8",
+      "date" : "2023-03-12",
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.3-rc2.tar.gz",
+      "version" : "6.3-rc2"
+   },
+   {
+      "category" : "stable",
+      "checksum" : "4303105201fb0c0b17155fff87df0a022a32a41eb1ce94a264ae648c64bd0d8d",
+      "date" : "2023-03-17",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.7.tar.xz",
+      "version" : "6.2.7"
+   },
+   {
+      "category" : "longterm",
+      "checksum" : "76322de8c01a3c63b42c4d1e9b9e7d1897ddb91276e10d73d1f9df3562f031f0",
+      "date" : "2023-03-17",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.20.tar.xz",
+      "version" : "6.1.20"
+   },
+   {
+      "category" : "longterm",
+      "checksum" : "0876ba81631cca532f72a8d633f7031c3068669a0ecdd77d23b74e8dfc8dd705",
+      "date" : "2023-03-17",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.103.tar.xz",
+      "version" : "5.15.103"
+   },
+   {
+      "category" : "longterm",
+      "checksum" : "e277562e28f234e36665ae12b7585f9557a83a86bc4a8de8840a305af6307bce",
+      "date" : "2023-03-17",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.175.tar.xz",
+      "version" : "5.10.175"
+   },
+   {
+      "category" : "longterm",
+      "checksum" : "b708fee0ff0533cc64a5202287ba5581482e2653925a5d46800edfa525c25527",
+      "date" : "2023-03-17",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.237.tar.xz",
+      "version" : "5.4.237"
+   },
+   {
+      "category" : "longterm",
+      "checksum" : "db52b0b5e7669de2b572a238b14880fddd90a731bddeb7067f4c94665f533e56",
+      "date" : "2023-03-17",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.278.tar.xz",
+      "version" : "4.19.278"
+   },
+   {
+      "category" : "longterm",
+      "checksum" : "8bf276e62227731b55a16abfef051686e54545501d68a789620cf821e5702165",
+      "date" : "2023-03-17",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.310.tar.xz",
+      "version" : "4.14.310"
+   }
+]

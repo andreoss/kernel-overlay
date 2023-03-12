@@ -1,0 +1,24 @@
+name: update-sources
+on:
+  workflow_dispatch: # allows manual triggering
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  lockfile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }}
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@v1
+      - name: Update flake.lock
+        run: nix flake update
+      - name: Update sources.json
+        run: ./update-sources.pl
+      - name: Commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update source.json

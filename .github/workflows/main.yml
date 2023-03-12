@@ -1,0 +1,42 @@
+name: CICD
+on:
+  pull_request:
+    branches: [ master ]
+  push:
+    branches: [ master ]
+jobs:
+  build-kernel:
+    strategy:
+        matrix:
+           version:
+           - 4_14
+           - 4_19
+           - 5_10
+           - 5_15
+           - 5_4
+           - 6_1
+           - mainline
+           - stable
+           channel:
+           - nixos-unstable
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Nix
+      uses: cachix/install-nix-action@v13
+      with:
+        nix_path: nixpkgs=channel:${{matrix.channel}}
+        extra_nix_config: |
+          experimental-features = nix-command flakes
+    - uses: cachix/cachix-action@v12
+      with:
+        name: kernel-overlay
+        authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
+    - name: Enable cache
+      run: cachix use kernel-overlay
+    - name: Build kernel
+      run: nix build '.#linux_${{matrix.version}}'
+    - name: Build VM
+      run: nix build '.#nixosConfigurations.vm_${{matrix.version}}.config.system.build.vm'
+    - name: Push
+      run:  nix path-info --all | cachix push kernel-overlay

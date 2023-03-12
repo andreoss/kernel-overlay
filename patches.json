@@ -1,0 +1,15 @@
+{
+  "5_16": [
+    {
+      "checksum": "fb654f7fe9ab9f8a4b108b8dcc8f78ab01eac2e857614939cd3390382cda9172",
+      "config": "FB_CON_DECOR y\n",
+      "name": "fbcondecor",
+      "url": "https://raw.githubusercontent.com/jirka-grunt/fbcondecor/master/fbcondecor-5.16.patch"
+    },
+    {
+      "checksum": "c9884190c0d94715582a25874995f9b3986e881ee25adb72b585da6a32902b77",
+      "name": "gcc-12-fix",
+      "url": "https://gist.githubusercontent.com/andreoss/d90490ce12a5ed8f6aefae83501777ca/raw/93a5ae2db002c3ae511de4ae6eb270c2a726ca12/gistfile1.txt"
+    }
+  ]
+}
