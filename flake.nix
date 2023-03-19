@@ -34,7 +34,7 @@
             inherit lib;
             inherit (pkgs) stdenv;
             version = p.version;
-            configfile = ./huge-config;
+            configfile = ./config;
             kernelPatches = map fetchPatch (patches.${name} or [ ]);
             allowImportFromDerivation = true;
             src = pkgs.fetchurl {
