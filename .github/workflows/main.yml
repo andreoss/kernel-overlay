@@ -1,12 +1,17 @@
-name: CICD
+name: packages
 on:
+  schedule:
+    - cron: '30 0 * * *'
   pull_request:
     branches: [ master ]
   push:
     branches: [ master ]
 jobs:
-  build-kernel:
+  build:
+    timeout-minutes: 180
+    continue-on-error: true
     strategy:
+        fail-fast: false
         matrix:
            version:
            - 4_14
