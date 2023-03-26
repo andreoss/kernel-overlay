@@ -1,10 +1,10 @@
 [
    {
       "category" : "mainline",
-      "checksum" : "c60dbfc2561fdfccc05fbf8db3db23e520db677833160bab6abdc78de2f5555b",
-      "date" : "2023-03-19",
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.3-rc3.tar.gz",
-      "version" : "6.3-rc3"
+      "checksum" : "63a60207c67069caeb8fec194e53f0145eeb00c0fe102e8c6c1191da77248534",
+      "date" : "2023-03-26",
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.3-rc4.tar.gz",
+      "version" : "6.3-rc4"
    },
    {
       "category" : "stable",
