@@ -24,6 +24,7 @@ jobs:
            - stable
            channel:
            - nixos-unstable
+           - nixos-22.11
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -42,6 +43,6 @@ jobs:
     - name: Build kernel
       run: nix build '.#linux_${{matrix.version}}'
     - name: Build VM
-      run: nix build '.#nixosConfigurations.vm_${{matrix.version}}.config.system.build.vm'
+      run: nix build '.#nixosConfigurations.x86-64_linux.vm_${{matrix.version}}.config.system.build.vm'
     - name: Push
       run:  nix path-info --all | cachix push kernel-overlay
