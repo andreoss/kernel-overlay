@@ -36,10 +36,10 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "70a2b2da85598eba6a73cdc0749e441cbdf3011d9babcb7028a46aa8d98aa91f",
-      "date" : "2023-03-22",
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.238.tar.xz",
-      "version" : "5.4.238"
+      "checksum" : "a90264af0f091962cd11fa9776620c154af3000ec112abbc9e90a93d3115805b",
+      "date" : "2023-03-30",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.239.tar.xz",
+      "version" : "5.4.239"
    },
    {
       "category" : "longterm",
