@@ -15,17 +15,17 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "7458372e8750afe37fd1ac3e7ab3c22f2c6018f760f8134055a03f54aba3ebeb",
-      "date" : "2023-04-06",
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.23.tar.xz",
-      "version" : "6.1.23"
+      "checksum" : "aae6a7e38e33589011f5a5c0d7e087c8a26e3daf8d434432ee975ead90546504",
+      "date" : "2023-04-13",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.24.tar.xz",
+      "version" : "6.1.24"
    },
    {
       "category" : "longterm",
-      "checksum" : "84e6934f828033570966e2a56fe8b72dc6e1409be296c66f4bf3c8ca6e3c8fe4",
-      "date" : "2023-04-05",
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.106.tar.xz",
-      "version" : "5.15.106"
+      "checksum" : "19370e769045681f52cceedb14ecda97e89b1b058133a0c8ad45d35ffbc5afa8",
+      "date" : "2023-04-13",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.107.tar.xz",
+      "version" : "5.15.107"
    },
    {
       "category" : "longterm",
