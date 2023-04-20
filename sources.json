@@ -50,9 +50,9 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "66101c0e018adcf0d6738cb1f92c09d41c999d93a5b5808ced5da27faacd7c0d",
-      "date" : "2023-04-05",
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.312.tar.xz",
-      "version" : "4.14.312"
+      "checksum" : "e628d65e6af2d67904926cd5017cfb8dafdd0fca9d879aeedcf7aa684d41524c",
+      "date" : "2023-04-20",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.313.tar.xz",
+      "version" : "4.14.313"
    }
 ]
