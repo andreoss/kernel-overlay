@@ -8,45 +8,45 @@
    },
    {
       "category" : "stable",
-      "checksum" : "0d236784e60b87c7953535aeb148dd9e773b26495dfa9c6d69615f54fe00dd47",
-      "date" : "2023-04-13",
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.11.tar.xz",
-      "version" : "6.2.11"
+      "checksum" : "c7e146b52737adfa4c724bfa41bf4721c5ee3cf220c074fbc60eb3ea62b0ccc8",
+      "date" : "2023-04-20",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.12.tar.xz",
+      "version" : "6.2.12"
    },
    {
       "category" : "longterm",
-      "checksum" : "aae6a7e38e33589011f5a5c0d7e087c8a26e3daf8d434432ee975ead90546504",
-      "date" : "2023-04-13",
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.24.tar.xz",
-      "version" : "6.1.24"
+      "checksum" : "cb72436ceb15086ae3df65e590592030692a9237a37d64105478eb5a72493091",
+      "date" : "2023-04-20",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.25.tar.xz",
+      "version" : "6.1.25"
    },
    {
       "category" : "longterm",
-      "checksum" : "19370e769045681f52cceedb14ecda97e89b1b058133a0c8ad45d35ffbc5afa8",
-      "date" : "2023-04-13",
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.107.tar.xz",
-      "version" : "5.15.107"
+      "checksum" : "8beb69ada46f1cbca2f4cf901ec078846035c1cd925d9471422f65aff74243ba",
+      "date" : "2023-04-20",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.108.tar.xz",
+      "version" : "5.15.108"
    },
    {
       "category" : "longterm",
-      "checksum" : "9f2261fea804112dcec8fa2dcc26e9c1388aa9cb7f86e5913beb00b9b5a15571",
-      "date" : "2023-04-05",
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.177.tar.xz",
-      "version" : "5.10.177"
+      "checksum" : "1acfade3715e560f00fb30615d5471e24b3940b549381558787aee9734e7a8af",
+      "date" : "2023-04-20",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.178.tar.xz",
+      "version" : "5.10.178"
    },
    {
       "category" : "longterm",
-      "checksum" : "dc88f041ce97520f19ea4ff8687d0f8b692d4c4a62be38e6d8aa9d0e71060e46",
-      "date" : "2023-04-05",
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.240.tar.xz",
-      "version" : "5.4.240"
+      "checksum" : "ffc0e0ad6f47f8b7b05148d815cbab27f44fa433f3a8ed0e372d4b8647bcea7c",
+      "date" : "2023-04-20",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.241.tar.xz",
+      "version" : "5.4.241"
    },
    {
       "category" : "longterm",
-      "checksum" : "fcb4399efadd54932cc8b2da125869ab326e9116a23892102eb61c3fc74daff6",
-      "date" : "2023-04-05",
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.280.tar.xz",
-      "version" : "4.19.280"
+      "checksum" : "c0dda4a5b83da524f44a679ece351e792359146bfd9e314121641838a0fedc8e",
+      "date" : "2023-04-20",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.281.tar.xz",
+      "version" : "4.19.281"
    },
    {
       "category" : "longterm",
