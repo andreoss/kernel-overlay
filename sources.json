@@ -8,17 +8,17 @@
    },
    {
       "category" : "stable",
-      "checksum" : "c7e146b52737adfa4c724bfa41bf4721c5ee3cf220c074fbc60eb3ea62b0ccc8",
-      "date" : "2023-04-20",
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.12.tar.xz",
-      "version" : "6.2.12"
+      "checksum" : "c7dded14e368834b18bb2ad64af65560d8bcb9d2d6597e0f6ef151fded01e577",
+      "date" : "2023-04-26",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.13.tar.xz",
+      "version" : "6.2.13"
    },
    {
       "category" : "longterm",
-      "checksum" : "cb72436ceb15086ae3df65e590592030692a9237a37d64105478eb5a72493091",
-      "date" : "2023-04-20",
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.25.tar.xz",
-      "version" : "6.1.25"
+      "checksum" : "dfdcc143a879d64a5ee99213b2b4b05b5dccd566c144df93bca1e204df64c110",
+      "date" : "2023-04-26",
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.26.tar.xz",
+      "version" : "6.1.26"
    },
    {
       "category" : "longterm",
