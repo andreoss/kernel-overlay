@@ -29,7 +29,7 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "checksum" : "9829fcc77b9978dce97a26980dec445caf2410024696625dbb2314ead4830b5b",
       "date" : "2023-04-30",
       "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.110.tar.xz",
       "version" : "5.15.110"
