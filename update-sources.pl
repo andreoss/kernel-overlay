@@ -37,9 +37,8 @@ sub checksum {
     my %r    = load_all_checksums($all);
     return $r{$name} if exists $r{$name};
 
-    return "XXX";
-    #chomp( my ($sha) = `wget -O- $url | sha256sum - | cut -f 1 -d' '` );
-    #return $sha;
+    chomp( my ($sha) = `wget -O- $url | sha256sum - | cut -f 1 -d' '` );
+    return $sha;
 }
 
 my $res = $ua->get('https://kernel.org')->result;
