@@ -37,8 +37,9 @@ sub checksum {
     my %r    = load_all_checksums($all);
     return $r{$name} if exists $r{$name};
 
-    chomp( my ($sha) = `wget -O- $url | sha256sum - | cut -f 1 -d' '` );
-    return $sha;
+    return "XXX";
+    #chomp( my ($sha) = `wget -O- $url | sha256sum - | cut -f 1 -d' '` );
+    #return $sha;
 }
 
 my $res = $ua->get('https://kernel.org')->result;
@@ -65,7 +66,9 @@ for my $e ( $releases->find('tr')->each ) {
         checksum => $checksum,
         version  => $version,
         date     => $date,
-        url      => $url
+        url      => $url,
+	eol      => ($version =~ m/eol/i ? 1 : 0),
+	rc       => ($version =~ m/rc/i  ? 1 : 0)
       };
 }
 

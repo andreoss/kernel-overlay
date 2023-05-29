@@ -24,7 +24,9 @@
           with builtins;
           concatStringsSep "_" (match "([0-9]+)[.]([0-9]+).*" x);
         mkName = n: p:
-          if (p.category == "longterm") then
+          if (p.category == "stable" && p.eol == true) then
+            "${n}_${trimVersion p.version}_eol"
+          else if (p.category == "longterm") then
             "${n}_${trimVersion p.version}"
           else
             "${n}_${p.category}";
