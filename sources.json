@@ -46,38 +46,38 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "da839a4bf1f6c964b9bde593bd58928f106f53690ff677e226bc50cf368b0c29",
-      "date" : "2023-05-17",
+      "checksum" : "ace6ceb73f5f2504bc1bcb9b8cd5b55d6ff8e90a81ee244ad2315fdd671ba4e7",
+      "date" : "2023-05-30",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.180.tar.xz",
-      "version" : "5.10.180"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.181.tar.xz",
+      "version" : "5.10.181"
    },
    {
       "category" : "longterm",
-      "checksum" : "c3cf664feeeee47e0f0c45c53705568f73692c37a3ff7f11c1b15e59610feb04",
-      "date" : "2023-05-17",
+      "checksum" : "90f5280e95ed7b374ad6f3979ed08008e29a051e5f372d367c06ed75b002a21b",
+      "date" : "2023-05-30",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.243.tar.xz",
-      "version" : "5.4.243"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.244.tar.xz",
+      "version" : "5.4.244"
    },
    {
       "category" : "longterm",
-      "checksum" : "047316d20c6c97ad41c40477c7e1ab0bea434243e17bfc72155801b123cc51f4",
-      "date" : "2023-05-17",
+      "checksum" : "7fb9ee20c7e52f9be6d9f501e8498a22f4b364abfde136143749a77e597fd03e",
+      "date" : "2023-05-30",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.283.tar.xz",
-      "version" : "4.19.283"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.284.tar.xz",
+      "version" : "4.19.284"
    },
    {
       "category" : "longterm",
-      "checksum" : "a346c5c34c06caeb28063b6379a28ec1f4111fa438ecd933a55f696fe362c99d",
-      "date" : "2023-05-17",
+      "checksum" : "ac8318f1c1d387e23ccfa760ec042943372df23e3c4e2408177fb5a3f6488f76",
+      "date" : "2023-05-30",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.315.tar.xz",
-      "version" : "4.14.315"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.316.tar.xz",
+      "version" : "4.14.316"
    }
 ]
