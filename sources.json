@@ -37,12 +37,12 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "4a4e98d21149d781867a6d44855f708b02f03cfe233d8026a0af9c9841b3b9ca",
-      "date" : "2023-05-24",
+      "checksum" : "e981ea5d219f77735bf5a3f7e84a8af578df8ac3e1c4ff1b0649e2b0795277d2",
+      "date" : "2023-05-30",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.113.tar.xz",
-      "version" : "5.15.113"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.114.tar.xz",
+      "version" : "5.15.114"
    },
    {
       "category" : "longterm",
