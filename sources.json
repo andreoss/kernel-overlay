@@ -10,12 +10,12 @@
    },
    {
       "category" : "stable",
-      "checksum" : "f5cd478c3d8b908ab606afd1e95a4f8f77e7186b4a82829251d6e6aaafff825e",
-      "date" : "2023-05-30",
+      "checksum" : "7a6a1f0dfa0bf7f45f9d4a7b409315cf32267850adab4db033a17de0320a24ef",
+      "date" : "2023-06-05",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.5.tar.xz",
-      "version" : "6.3.5"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.6.tar.xz",
+      "version" : "6.3.6"
    },
    {
       "category" : "stable",
@@ -28,30 +28,30 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "e86917bba1990e967943645484182a64ba325f98b114a1906cc1d50992e073c1",
-      "date" : "2023-05-30",
+      "checksum" : "7c88b7a09ba2b9e47b78eba2b32b1db6a4d89636f7ddd586545f9671a2521a6c",
+      "date" : "2023-06-05",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.31.tar.xz",
-      "version" : "6.1.31"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.32.tar.xz",
+      "version" : "6.1.32"
    },
    {
       "category" : "longterm",
-      "checksum" : "e981ea5d219f77735bf5a3f7e84a8af578df8ac3e1c4ff1b0649e2b0795277d2",
-      "date" : "2023-05-30",
+      "checksum" : "1b076860779235e90519e867c1ec78c7a34d1125d8fdba787ff495c7c14f1214",
+      "date" : "2023-06-05",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.114.tar.xz",
-      "version" : "5.15.114"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.115.tar.xz",
+      "version" : "5.15.115"
    },
    {
       "category" : "longterm",
-      "checksum" : "ace6ceb73f5f2504bc1bcb9b8cd5b55d6ff8e90a81ee244ad2315fdd671ba4e7",
-      "date" : "2023-05-30",
+      "checksum" : "de8ec58929460e3a14c1b0502f4a449f24c988a7a4a03ff04a82fb2d665fe9f6",
+      "date" : "2023-06-05",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.181.tar.xz",
-      "version" : "5.10.181"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.182.tar.xz",
+      "version" : "5.10.182"
    },
    {
       "category" : "longterm",
