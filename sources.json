@@ -1,21 +1,21 @@
 [
    {
       "category" : "mainline",
-      "checksum" : "691704fd6f1e9b21f6fdd89869d7f12d9aae1499cc6c40ce69449ca029f8adfe",
-      "date" : "2023-05-28",
+      "checksum" : "8ed3d400b8285217da95d3f6b535901a247a8cac8a910f50a9763d78ebe7b5c6",
+      "date" : "2023-06-04",
       "eol" : 0,
       "rc" : 1,
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.4-rc4.tar.gz",
-      "version" : "6.4-rc4"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.4-rc5.tar.gz",
+      "version" : "6.4-rc5"
    },
    {
       "category" : "stable",
-      "checksum" : "f5cd478c3d8b908ab606afd1e95a4f8f77e7186b4a82829251d6e6aaafff825e",
-      "date" : "2023-05-30",
+      "checksum" : "fe369743996c522a7b473e99dcf8f88847bd5cc88546fd3b7a41d9fe5a5b97a9",
+      "date" : "2023-06-09",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.5.tar.xz",
-      "version" : "6.3.5"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.7.tar.xz",
+      "version" : "6.3.7"
    },
    {
       "category" : "stable",
@@ -28,56 +28,56 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "e86917bba1990e967943645484182a64ba325f98b114a1906cc1d50992e073c1",
-      "date" : "2023-05-30",
+      "checksum" : "b87d6ba8ea7328e8007a7ea9171d1aa0d540d95eacfcab09578e0a3b623dd2cd",
+      "date" : "2023-06-09",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.31.tar.xz",
-      "version" : "6.1.31"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.33.tar.xz",
+      "version" : "6.1.33"
    },
    {
       "category" : "longterm",
-      "checksum" : "e981ea5d219f77735bf5a3f7e84a8af578df8ac3e1c4ff1b0649e2b0795277d2",
-      "date" : "2023-05-30",
+      "checksum" : "f617c9d1bb5326cc93495938f43eb8cb9aea9d2f451e5a99bce2893f296e179a",
+      "date" : "2023-06-09",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.114.tar.xz",
-      "version" : "5.15.114"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.116.tar.xz",
+      "version" : "5.15.116"
    },
    {
       "category" : "longterm",
-      "checksum" : "ace6ceb73f5f2504bc1bcb9b8cd5b55d6ff8e90a81ee244ad2315fdd671ba4e7",
-      "date" : "2023-05-30",
+      "checksum" : "409497c635caf49614de21950ec091eb621a5d5fe1f63fc418ef68ac38b56119",
+      "date" : "2023-06-09",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.181.tar.xz",
-      "version" : "5.10.181"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.183.tar.xz",
+      "version" : "5.10.183"
    },
    {
       "category" : "longterm",
-      "checksum" : "90f5280e95ed7b374ad6f3979ed08008e29a051e5f372d367c06ed75b002a21b",
-      "date" : "2023-05-30",
+      "checksum" : "0938790a858fd0af6aa6b27a3bdf4c5d4a46aba60e6178156980d58bef7ed9ea",
+      "date" : "2023-06-09",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.244.tar.xz",
-      "version" : "5.4.244"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.246.tar.xz",
+      "version" : "5.4.246"
    },
    {
       "category" : "longterm",
-      "checksum" : "7fb9ee20c7e52f9be6d9f501e8498a22f4b364abfde136143749a77e597fd03e",
-      "date" : "2023-05-30",
+      "checksum" : "aaa1775359c7a066ec70852ea2709fe7e7109517b7d895f34e237132db8edc16",
+      "date" : "2023-06-09",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.284.tar.xz",
-      "version" : "4.19.284"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.285.tar.xz",
+      "version" : "4.19.285"
    },
    {
       "category" : "longterm",
-      "checksum" : "ac8318f1c1d387e23ccfa760ec042943372df23e3c4e2408177fb5a3f6488f76",
-      "date" : "2023-05-30",
+      "checksum" : "8cf28f5aae6f77fa718861c415d646a189a7f9493ef0ccb461575a092af03c30",
+      "date" : "2023-06-09",
       "eol" : 0,
       "rc" : 0,
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.316.tar.xz",
-      "version" : "4.14.316"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.317.tar.xz",
+      "version" : "4.14.317"
    }
 ]
