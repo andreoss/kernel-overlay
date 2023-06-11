@@ -7,8 +7,8 @@ Builds of vanilla Linux kernel for Nix.
 The currently available releases are regularly scrapped from https://kernel.org.
 Run `nix flake show github:andreoss/kernel-overlay` to see exact versions.
 
-- `linuxPackages` is an aliases for the latest `stable` release.
-- `linuxPackages_testing` is an aliases for the latest `mainline` release.
+- `linuxPackages` is an alias for the latest `stable` release.
+- `linuxPackages_testing` is an alias for the latest `mainline` release.
 
 ## Installation
 
