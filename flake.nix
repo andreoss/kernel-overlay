@@ -20,16 +20,7 @@
           };
           extraConfig = p.config or "";
         };
-        trimVersion = x:
-          with builtins;
-          concatStringsSep "_" (match "([0-9]+)[.]([0-9]+).*" x);
-        mkName = n: p:
-          if (p.category == "stable" && p.eol == true) then
-            "${n}_${trimVersion p.version}_eol"
-          else if (p.category == "longterm") then
-            "${n}_${trimVersion p.version}"
-          else
-            "${n}_${p.category}";
+        mkName = n: p: "${n}_${p.package.name}";
         mkLinuxPackages = p:
           let name = mkName "linux" p;
           in {
@@ -46,8 +37,7 @@
               };
             };
             ${mkName "linuxPackages" p} = pkgs.recurseIntoAttrs
-              (pkgs.linuxPackagesFor
-                self.outputs.packages.x86_64-linux.${name});
+              (pkgs.linuxPackagesFor self.outputs.packages.${system}.${name});
           };
         kpkgs = merge (map (x: mkLinuxPackages x) sources);
         mkNixos = p: {

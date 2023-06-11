@@ -50,25 +50,57 @@ my $dom = Mojo::DOM->new( $res->body );
 my $releases = $dom->at("#releases");
 
 my @sources = ();
+
+sub first_href {
+    my ( $obj, $i ) = @_;
+    return '' unless $obj || $obj->[$i];
+    my $f = $obj->[$i]->find('a[href]')->first;
+    return '' unless $f;
+    return $f->attr('href');
+}
+
+sub trim_version {
+    my $version = shift;
+    return unless $version =~ m/ ^ (\d+) [.] (\d+) /xgsm;
+    return "$1_$2";
+}
+
 for my $e ( $releases->find('tr')->each ) {
     my $items    = $e->find('td');
     my $category = $items->[0]->all_text =~ s/\W//gr;
     next unless exists $meta->{categories}{$category};
-    my $version      = $items->[1]->all_text;
-    my $date         = $items->[2]->all_text;
-    my $url          = $items->[3]->find('a[href]')->first->attr('href');
-    my $checksum_url = $url =~ s[(?<=/)[^/]+$][sha256sums.asc]rs;
-    my $checksum     = checksum( $checksum_url, $url );
+    my $version   = lc( $items->[1]->all_text =~ s/\s/-/gr =~ s/[\[-\]]//gr );
+    my $date      = $items->[2]->all_text;
+    my $tarball   = first_href( $items, 3 );
+    my $pgp       = first_href( $items, 4 );
+    my $browse    = first_href( $items, 8 );
+    my $changelog = first_href( $items, 9 );
+    my $checksum_url = $tarball =~ s[(?<=/)[^/]+$][sha256sums.asc]rs;
+    my $checksum     = checksum( $checksum_url, $tarball );
+
+    if ( $version =~ /eol/i ) {
+        $category = 'stable_eol';
+    }
+    my $pversion = trim_version($version);
     push @sources,
       {
         category => $category,
         checksum => $checksum,
         version  => $version,
         date     => $date,
-        url      => $url,
-	eol      => ($version =~ m/eol/i ? 1 : 0),
-	rc       => ($version =~ m/rc/i  ? 1 : 0)
+        url      => $tarball,
+        package  => {
+            name => ( $category eq 'stable' || $category eq 'mainline' )
+            ? $category
+            : $pversion
+        },
+        meta => {
+            link      => $browse,
+            pgp       => $pgp,
+            changelog => $changelog,
+        }
       };
 }
 
-write_file( 'sources.json', $json->encode( \@sources ) );
+write_file( 'sources.json',
+    $json->encode( [ sort { $a->{version} cmp $b->{version} } @sources ] ) );
