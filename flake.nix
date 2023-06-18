@@ -45,15 +45,15 @@
             inherit system;
             modules = [
               ({ config, pkgs, ... }: {
+                nixpkgs.config = { allowUnfree = true; };
                 system.stateVersion = "23.05";
                 boot.extraModulePackages = with config.boot.kernelPackages; [ ];
                 boot.kernelPackages = kpkgs.${mkName "linuxPackages" p};
                 virtualisation = {
-                  virtualbox.guest = {
-                    enable = true;
-                  };
+                  virtualbox.guest = { enable = true; };
                   virtualbox.host = {
                     enable = true;
+                    enableExtensionPack = true;
                   };
                 };
               })
