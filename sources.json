@@ -76,33 +76,33 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "d8ca0e300f30b9ff70c6e1497c638a1dac1407f45d3655e9c62c6e45a08afe6b",
-      "date" : "2023-06-28",
+      "checksum" : "46cad712d261a23c8e483a3b79b6a84b9a5f731a8921c9127df35ae35cef1e80",
+      "date" : "2023-07-01",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.36",
-         "link" : "https://git.kernel.org/stable/h/v6.1.36",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.36.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.37",
+         "link" : "https://git.kernel.org/stable/h/v6.1.37",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.37.tar.sign"
       },
       "package" : {
          "name" : "6_1"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.36.tar.xz",
-      "version" : "6.1.36"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.37.tar.xz",
+      "version" : "6.1.37"
    },
    {
       "category" : "stable",
-      "checksum" : "e0a9ad8692b2191cbd33db371a780a3fe375de90123a307ecd874c0860cd46e3",
-      "date" : "2023-06-28",
+      "checksum" : "1d5a3fbd4d4265b6c9605d5c605d947673e7643af2890e4ad5c946940f123e16",
+      "date" : "2023-07-01",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.10",
-         "link" : "https://git.kernel.org/stable/h/v6.3.10",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.10.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.3.11",
+         "link" : "https://git.kernel.org/stable/h/v6.3.11",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.11.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.10.tar.xz",
-      "version" : "6.3.10"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.3.11.tar.xz",
+      "version" : "6.3.11"
    },
    {
       "category" : "mainline",
@@ -118,5 +118,20 @@
       },
       "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.4.tar.xz",
       "version" : "6.4"
+   },
+   {
+      "category" : "stable",
+      "checksum" : "0d9daa9f1c176fb13b9447f6e3d80e82b49043f0d344c247bbf09b4e625beef3",
+      "date" : "2023-07-01",
+      "meta" : {
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.4.1",
+         "link" : "https://git.kernel.org/stable/h/v6.4.1",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.4.1.tar.sign"
+      },
+      "package" : {
+         "name" : "stable"
+      },
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.4.1.tar.xz",
+      "version" : "6.4.1"
    }
 ]
