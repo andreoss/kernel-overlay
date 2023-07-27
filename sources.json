@@ -31,18 +31,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "f69454210b3e9e00e8b8368aaa897d4ca59f8be3b85399a2fcaecbf17af98bbb",
-      "date" : "2023-07-24",
+      "checksum" : "c9558bab35e23ae67661bfb3192c609c857f78582a035449ae63e33d04ab6112",
+      "date" : "2023-07-27",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.10.187",
-         "link" : "https://git.kernel.org/stable/h/v5.10.187",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.187.tar.sign"
+         "changelog" : "",
+         "link" : "https://git.kernel.org/stable/h/v5.10.188",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.188.tar.sign"
       },
       "package" : {
          "name" : "5_10"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.187.tar.xz",
-      "version" : "5.10.187"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.188.tar.xz",
+      "version" : "5.10.188"
    },
    {
       "category" : "longterm",
@@ -61,18 +61,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "0f5b8876526062bf5e346f6b9dde88be873761ee33cf3b8a1586d7d109a091fb",
-      "date" : "2023-07-24",
+      "checksum" : "bcb4953ed68131ef17f9f1ba52cac8b9d70007f5ab600bf3dee1fbf8beb218ca",
+      "date" : "2023-07-27",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.4.250",
-         "link" : "https://git.kernel.org/stable/h/v5.4.250",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.250.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.4.251",
+         "link" : "https://git.kernel.org/stable/h/v5.4.251",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.251.tar.sign"
       },
       "package" : {
          "name" : "5_4"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.250.tar.xz",
-      "version" : "5.4.250"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.251.tar.xz",
+      "version" : "5.4.251"
    },
    {
       "category" : "longterm",
