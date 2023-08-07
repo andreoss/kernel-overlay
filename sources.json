@@ -46,18 +46,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "2de69544a12e6a059163c58fc901c13bcf22e8cac39c66b56f8fbb633399bf93",
-      "date" : "2023-07-27",
+      "checksum" : "00036a0260ad012aa832a8698a4afcf23b2410091527738ce48ce3fcc23f22ed",
+      "date" : "2023-08-03",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.123",
-         "link" : "https://git.kernel.org/stable/h/v5.15.123",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.123.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.124",
+         "link" : "https://git.kernel.org/stable/h/v5.15.124",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.124.tar.sign"
       },
       "package" : {
          "name" : "5_15"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.123.tar.xz",
-      "version" : "5.15.123"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.124.tar.xz",
+      "version" : "5.15.124"
    },
    {
       "category" : "longterm",
@@ -76,18 +76,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "aaf8261b551c8b76b81eab8780b446e88cea4d551ae517ac3a9b2dbdbd381ed3",
-      "date" : "2023-07-27",
+      "checksum" : "245248470a62d4e94b46f753afc01e19e45b9e6f3a0fa06e7f5da21fe845a808",
+      "date" : "2023-08-03",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.42",
-         "link" : "https://git.kernel.org/stable/h/v6.1.42",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.42.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.43",
+         "link" : "https://git.kernel.org/stable/h/v6.1.43",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.43.tar.sign"
       },
       "package" : {
          "name" : "6_1"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.42.tar.xz",
-      "version" : "6.1.42"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.43.tar.xz",
+      "version" : "6.1.43"
    },
    {
       "category" : "stable_eol",
@@ -106,32 +106,32 @@
    },
    {
       "category" : "stable",
-      "checksum" : "de143cb61dcaa756c05f56ff35144316d810615819518a33e34754f064c4a7d8",
-      "date" : "2023-07-27",
+      "checksum" : "c59f34e19e84db30206b9373041abf893f9d8a08765d163586570a5238c458b6",
+      "date" : "2023-08-03",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.4.7",
-         "link" : "https://git.kernel.org/stable/h/v6.4.7",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.4.7.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.4.8",
+         "link" : "https://git.kernel.org/stable/h/v6.4.8",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.4.8.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.4.7.tar.xz",
-      "version" : "6.4.7"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.4.8.tar.xz",
+      "version" : "6.4.8"
    },
    {
       "category" : "mainline",
-      "checksum" : "6b186941095235c65f6ad55ffcb534e343348cc791bd1cc72a06f8aa761678e3",
-      "date" : "2023-07-23",
+      "checksum" : "538d127b2506bfaa60788108bdd99e3fe4e89cea7fec738b459894f59b80092d",
+      "date" : "2023-08-06",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.5-rc3",
+         "link" : "https://git.kernel.org/torvalds/h/v6.5-rc5",
          "pgp" : ""
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.5-rc3.tar.gz",
-      "version" : "6.5-rc3"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.5-rc5.tar.gz",
+      "version" : "6.5-rc5"
    }
 ]
