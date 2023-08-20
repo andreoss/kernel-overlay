@@ -106,17 +106,17 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "b64de76d8499225edf1625125070b49a43c1365331adedf89147de8fb9d49638",
-      "date" : "2023-08-13",
+      "checksum" : "b3d55abc507f8e971afd9a3dd6408ed5a8d13e5f30284716150a06b9bd455a96",
+      "date" : "2023-08-20",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.5-rc6",
+         "link" : "https://git.kernel.org/torvalds/h/v6.5-rc7",
          "pgp" : ""
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.5-rc6.tar.gz",
-      "version" : "6.5-rc6"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.5-rc7.tar.gz",
+      "version" : "6.5-rc7"
    }
 ]
