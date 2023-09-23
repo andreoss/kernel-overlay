@@ -1,33 +1,33 @@
 [
    {
       "category" : "longterm",
-      "checksum" : "5b69e182ced5190a1fca117682cf7967c5bab24c4cf1364733ee14055b0df784",
-      "date" : "2023-09-02",
+      "checksum" : "555ce40f1df4c0f4a74cbefcaad0c67108615860968720faabe51cdee2df1478",
+      "date" : "2023-09-23",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.14.325",
-         "link" : "https://git.kernel.org/stable/h/v4.14.325",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.325.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.14.326",
+         "link" : "https://git.kernel.org/stable/h/v4.14.326",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.326.tar.sign"
       },
       "package" : {
          "name" : "4_14"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.325.tar.xz",
-      "version" : "4.14.325"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.326.tar.xz",
+      "version" : "4.14.326"
    },
    {
       "category" : "longterm",
-      "checksum" : "ccadbde939a788934436125a1ecd4464175b68ebe6c18072fbc90c8596eea00f",
-      "date" : "2023-09-02",
+      "checksum" : "b732c2e4f08576a9dd5bb14213cead3835acbb101a91aaba3d6ace302fd538ac",
+      "date" : "2023-09-23",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.19.294",
-         "link" : "https://git.kernel.org/stable/h/v4.19.294",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.294.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.19.295",
+         "link" : "https://git.kernel.org/stable/h/v4.19.295",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.295.tar.sign"
       },
       "package" : {
          "name" : "4_19"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.294.tar.xz",
-      "version" : "4.19.294"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.295.tar.xz",
+      "version" : "4.19.295"
    },
    {
       "category" : "longterm",
