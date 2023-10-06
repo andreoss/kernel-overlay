@@ -76,18 +76,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "a87e241ec15d53452c4efe219713a3769d88cc436b5b98cf6efb262c4aff15c0",
-      "date" : "2023-09-23",
+      "checksum" : "9edefdde32c2298389dcd19566402332b3c2016f5ada17e5820f500b908d478c",
+      "date" : "2023-10-06",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.55",
-         "link" : "https://git.kernel.org/stable/h/v6.1.55",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.55.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.56",
+         "link" : "https://git.kernel.org/stable/h/v6.1.56",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.56.tar.sign"
       },
       "package" : {
          "name" : "6_1"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.55.tar.xz",
-      "version" : "6.1.55"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.56.tar.xz",
+      "version" : "6.1.56"
    },
    {
       "category" : "stable_eol",
