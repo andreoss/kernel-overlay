@@ -76,33 +76,33 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "ad2c9d12fc36e2dde4796a3eec8f4ddca2e278098f4e555b6e6f5f03ef6964ce",
-      "date" : "2023-11-02",
+      "checksum" : "b9fd616facd6becfceef88b9be718d0f16625cab3fe81d11384802a7091e85ec",
+      "date" : "2023-11-08",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.61",
-         "link" : "https://git.kernel.org/stable/h/v6.1.61",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.61.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.62",
+         "link" : "https://git.kernel.org/stable/h/v6.1.62",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.62.tar.sign"
       },
       "package" : {
          "name" : "6_1"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.61.tar.xz",
-      "version" : "6.1.61"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.62.tar.xz",
+      "version" : "6.1.62"
    },
    {
       "category" : "stable",
-      "checksum" : "a15f498604adf8f6ac842f1733a694083f23e578b48c8e97d94b6d8968e55a8b",
-      "date" : "2023-11-02",
+      "checksum" : "2ee24af9282b80923b2da56b70aad7df2e8ee4e3f076452e05ba66be2059b519",
+      "date" : "2023-11-08",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.5.10",
-         "link" : "https://git.kernel.org/stable/h/v6.5.10",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.10.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.5.11",
+         "link" : "https://git.kernel.org/stable/h/v6.5.11",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.11.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.10.tar.xz",
-      "version" : "6.5.10"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.11.tar.xz",
+      "version" : "6.5.11"
    },
    {
       "category" : "mainline",
