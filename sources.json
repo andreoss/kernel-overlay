@@ -1,33 +1,33 @@
 [
    {
       "category" : "longterm",
-      "checksum" : "de36689d713ed17f8bc1286fe4b9afcdb9a3de3b6f1d6aff52569f055c276bb7",
-      "date" : "2023-11-08",
+      "checksum" : "670ecc452c4a55d52b0dc1f3e11460e88f0ac5e7b3df0672fc46db5c9dff8f67",
+      "date" : "2023-11-20",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.14.329",
-         "link" : "https://git.kernel.org/stable/h/v4.14.329",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.329.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.14.330",
+         "link" : "https://git.kernel.org/stable/h/v4.14.330",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.330.tar.sign"
       },
       "package" : {
          "name" : "4_14"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.329.tar.xz",
-      "version" : "4.14.329"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.330.tar.xz",
+      "version" : "4.14.330"
    },
    {
       "category" : "longterm",
-      "checksum" : "9da816bce896024c96b6c846be8f3e6315dd6ae82925698f534153d6a0c10f56",
-      "date" : "2023-11-08",
+      "checksum" : "c6fb7521e1b4124d5c7637768f1b13d9a57f887d6e50aa80d34e62296e18e48a",
+      "date" : "2023-11-20",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.19.298",
-         "link" : "https://git.kernel.org/stable/h/v4.19.298",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.298.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.19.299",
+         "link" : "https://git.kernel.org/stable/h/v4.19.299",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.299.tar.sign"
       },
       "package" : {
          "name" : "4_19"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.298.tar.xz",
-      "version" : "4.19.298"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.299.tar.xz",
+      "version" : "4.19.299"
    },
    {
       "category" : "longterm",
@@ -61,18 +61,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "9830820714c8f5985c50071cc9e1b40533ee81a4f6c704916c7148d16e54ebfe",
-      "date" : "2023-11-08",
+      "checksum" : "31bac78086f0aa0b3b30d521a21a6ecb2374bdf036f69c3fa42e7eb6c5b64fc3",
+      "date" : "2023-11-20",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.4.260",
-         "link" : "https://git.kernel.org/stable/h/v5.4.260",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.260.tar.sign"
+         "changelog" : "",
+         "link" : "https://git.kernel.org/stable/h/v5.4.261",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.261.tar.sign"
       },
       "package" : {
          "name" : "5_4"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.260.tar.xz",
-      "version" : "5.4.260"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.261.tar.xz",
+      "version" : "5.4.261"
    },
    {
       "category" : "longterm",
