@@ -90,7 +90,7 @@
       "version" : "6.1.64"
    },
    {
-      "category" : "stable",
+      "category" : "stable_eol",
       "checksum" : "78fbd43822f4c56bc16e89e8874767f592532e1a0ffcd1af4dd279559b5fcbb5",
       "date" : "2023-11-28",
       "meta" : {
@@ -99,10 +99,10 @@
          "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.13.tar.sign"
       },
       "package" : {
-         "name" : "stable"
+         "name" : "6_5"
       },
       "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.13.tar.xz",
-      "version" : "6.5.13"
+      "version" : "6.5.13-eol"
    },
    {
       "category" : "stable",
