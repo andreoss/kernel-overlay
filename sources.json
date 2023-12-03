@@ -121,17 +121,17 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "8c380723585a73a6213bfdef026d61bc6c44ab72cbbcbae0ead30d72c33ade1f",
-      "date" : "2023-11-27",
+      "checksum" : "1d14f5a9d3a58c37ed67f4d717aad0f1d2adcab1e20ef91a501c15b8b6b2af24",
+      "date" : "2023-12-03",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.7-rc3",
+         "link" : "https://git.kernel.org/torvalds/h/v6.7-rc4",
          "pgp" : ""
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.7-rc3.tar.gz",
-      "version" : "6.7-rc3"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.7-rc4.tar.gz",
+      "version" : "6.7-rc4"
    }
 ]
