@@ -16,18 +16,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "62559b9a0b059583a82698e2bbbfd2a7a1337669f73a24b17ed27b87a82b20bb",
-      "date" : "2023-12-08",
+      "checksum" : "53d33c0042eff3700b7f59bdac06295c98c50056fce72f630438974b46bd73ce",
+      "date" : "2023-12-13",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.19.301",
-         "link" : "https://git.kernel.org/stable/h/v4.19.301",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.301.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.19.302",
+         "link" : "https://git.kernel.org/stable/h/v4.19.302",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.302.tar.sign"
       },
       "package" : {
          "name" : "4_19"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.301.tar.xz",
-      "version" : "4.19.301"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.302.tar.xz",
+      "version" : "4.19.302"
    },
    {
       "category" : "longterm",
