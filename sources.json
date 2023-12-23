@@ -46,18 +46,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "f053afafafce771acbf478afdd16e9aa85b0a0e328205c4f53276062300a5b3b",
-      "date" : "2023-12-20",
+      "checksum" : "b2a49d87605f3a9491581150315e22337c1afb599efc1e2737481be3a2d6d620",
+      "date" : "2023-12-23",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.144",
-         "link" : "https://git.kernel.org/stable/h/v5.15.144",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.144.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.145",
+         "link" : "https://git.kernel.org/stable/h/v5.15.145",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.145.tar.sign"
       },
       "package" : {
          "name" : "5_15"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.144.tar.xz",
-      "version" : "5.15.144"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.145.tar.xz",
+      "version" : "5.15.145"
    },
    {
       "category" : "longterm",
