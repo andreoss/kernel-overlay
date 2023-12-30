@@ -90,21 +90,6 @@
       "version" : "6.1.69"
    },
    {
-      "category" : "stable_eol",
-      "checksum" : "78fbd43822f4c56bc16e89e8874767f592532e1a0ffcd1af4dd279559b5fcbb5",
-      "date" : "2023-11-28",
-      "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.5.13",
-         "link" : "https://git.kernel.org/stable/h/v6.5.13",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.13.tar.sign"
-      },
-      "package" : {
-         "name" : "6_5"
-      },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.5.13.tar.xz",
-      "version" : "6.5.13-eol"
-   },
-   {
       "category" : "stable",
       "checksum" : "5036c434e11e4b36d8da3f489851f7f829cf785fa7f7887468537a9ea4572416",
       "date" : "2023-12-20",
