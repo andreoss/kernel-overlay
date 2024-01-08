@@ -106,17 +106,17 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "4306cbb1b33b2fd67a86d9a3e4faba9a95413398c3d9cf57991ee97800a0640a",
-      "date" : "2023-12-31",
+      "checksum" : "ef31144a2576d080d8c31698e83ec9f66bf97c677fa2aaf0d5bbb9f3345b1069",
+      "date" : "2024-01-07",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.7-rc8",
-         "pgp" : ""
+         "link" : "https://git.kernel.org/torvalds/h/v6.7",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.7.tar.sign"
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.7-rc8.tar.gz",
-      "version" : "6.7-rc8"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.7.tar.xz",
+      "version" : "6.7"
    }
 ]
