@@ -31,18 +31,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "c43d613216e6c5197519a4e979de5c1b510100858ff591963931c99e59c7485b",
-      "date" : "2024-01-05",
+      "checksum" : "86ace9892296bf1534d574894edd27614b68de4085c03fd3f60121751a334f1b",
+      "date" : "2024-01-12",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.10.206",
-         "link" : "https://git.kernel.org/stable/h/v5.10.206",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.206.tar.sign"
+         "changelog" : "",
+         "link" : "https://git.kernel.org/stable/h/v5.10.207",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.207.tar.sign"
       },
       "package" : {
          "name" : "5_10"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.206.tar.xz",
-      "version" : "5.10.206"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.207.tar.xz",
+      "version" : "5.10.207"
    },
    {
       "category" : "longterm",
