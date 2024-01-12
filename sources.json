@@ -34,7 +34,7 @@
       "checksum" : "86ace9892296bf1534d574894edd27614b68de4085c03fd3f60121751a334f1b",
       "date" : "2024-01-12",
       "meta" : {
-         "changelog" : "",
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.10.207",
          "link" : "https://git.kernel.org/stable/h/v5.10.207",
          "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.207.tar.sign"
       },
