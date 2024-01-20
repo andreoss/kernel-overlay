@@ -76,18 +76,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "6cad48706bf1cde342613dca2a2cd6dd4f79f88f9e4d356263564e4b2a5d7e87",
-      "date" : "2024-01-15",
+      "checksum" : "b7fbd1d79faed2ce3570ef79dc1223e4e19c868b86326b14a435db56ebbb2022",
+      "date" : "2024-01-20",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.73",
-         "link" : "https://git.kernel.org/stable/h/v6.1.73",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.73.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.74",
+         "link" : "https://git.kernel.org/stable/h/v6.1.74",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.74.tar.sign"
       },
       "package" : {
          "name" : "6_1"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.73.tar.xz",
-      "version" : "6.1.73"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.74.tar.xz",
+      "version" : "6.1.74"
    },
    {
       "category" : "stable",
