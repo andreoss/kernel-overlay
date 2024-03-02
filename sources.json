@@ -76,33 +76,33 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "b5637e6b72c2b4b12e7db790bc155d141a9c2fe4b25f7b215410107e8747139a",
-      "date" : "2024-03-01",
+      "checksum" : "e2f6c7f39b304248193370f8c5755553ab73ad5672e92dae994a344084d8dd22",
+      "date" : "2024-03-02",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.19",
-         "link" : "https://git.kernel.org/stable/h/v6.6.19",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.19.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.20",
+         "link" : "https://git.kernel.org/stable/h/v6.6.20",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.20.tar.sign"
       },
       "package" : {
          "name" : "6_6"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.19.tar.xz",
-      "version" : "6.6.19"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.20.tar.xz",
+      "version" : "6.6.20"
    },
    {
       "category" : "stable",
-      "checksum" : "256b8b44570ddbe266eb3ad0c2cba2616f1609b4a3de5014a3da5512907b14d9",
-      "date" : "2024-03-01",
+      "checksum" : "469ff46b98685df13b56c98417c64ba7a30f8a45baf34aa99f07935e1bf65c18",
+      "date" : "2024-03-02",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.7.7",
-         "link" : "https://git.kernel.org/stable/h/v6.7.7",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.7.7.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.7.8",
+         "link" : "https://git.kernel.org/stable/h/v6.7.8",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.7.8.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.7.7.tar.xz",
-      "version" : "6.7.7"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.7.8.tar.xz",
+      "version" : "6.7.8"
    },
    {
       "category" : "mainline",
