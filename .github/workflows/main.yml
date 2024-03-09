@@ -24,6 +24,7 @@ jobs:
            - stable
            channel:
            - nixos-unstable
+           - nixos-23.11
            - nixos-23.05
     runs-on: ubuntu-latest
     steps:
