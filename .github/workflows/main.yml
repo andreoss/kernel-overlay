@@ -14,12 +14,12 @@ jobs:
         fail-fast: false
         matrix:
            version:
-           - 4_14
            - 4_19
            - 5_10
            - 5_15
            - 5_4
            - 6_1
+           - 6_6
            - mainline
            - stable
            channel:
