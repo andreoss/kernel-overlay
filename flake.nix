@@ -29,6 +29,7 @@
               inherit (pkgs) stdenv;
               version = p.version;
               configfile = ./config;
+              modDirVersion = "${p.version}-andreoss";
               kernelPatches = map fetchPatch (patches.${name} or [ ]);
               allowImportFromDerivation = true;
               src = pkgs.fetchurl {
@@ -49,7 +50,7 @@
                 system.stateVersion = "23.05";
                 boot.extraModulePackages = with config.boot.kernelPackages; [ ];
                 boot.kernelPackages = kpkgs.${mkName "linuxPackages" p};
-                virtualisation = {};
+                virtualisation = { };
               })
             ];
           };
