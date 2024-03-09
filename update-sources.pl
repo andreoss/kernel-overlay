@@ -81,6 +81,9 @@ for my $e ( $releases->find('tr')->each ) {
     if ( $version =~ /eol/i ) {
         $category = 'stable_eol';
     }
+    if ( $version =~ /rc/i ) {
+        $version =~ s/ (\d+) [.] (\d+) [-] (\w+) /$1.$2.0-$3/xgsm;
+    }
     my $pversion = trim_version($version);
     push @sources,
       {
