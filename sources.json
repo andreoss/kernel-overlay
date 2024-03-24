@@ -105,21 +105,6 @@
       "version" : "6.7.10"
    },
    {
-      "category" : "mainline",
-      "checksum" : "c969dea4e8bb6be991bbf7c010ba0e0a5643a3a8d8fb0a2aaa053406f1e965f3",
-      "date" : "2024-03-10",
-      "meta" : {
-         "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.8",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.tar.sign"
-      },
-      "package" : {
-         "name" : "mainline"
-      },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.tar.xz",
-      "version" : "6.8"
-   },
-   {
       "category" : "stable",
       "checksum" : "8d0c8936e3140a0fbdf511ad7a9f21121598f3656743898f47bb9052d37cff68",
       "date" : "2024-03-15",
@@ -133,5 +118,20 @@
       },
       "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.1.tar.xz",
       "version" : "6.8.1"
+   },
+   {
+      "category" : "mainline",
+      "checksum" : "a0239424e10e45c43252d5decc6978a3fa58e0d4d631d0855db57fa209f53165",
+      "date" : "2024-03-24",
+      "meta" : {
+         "changelog" : "",
+         "link" : "https://git.kernel.org/torvalds/h/v6.9-rc1",
+         "pgp" : ""
+      },
+      "package" : {
+         "name" : "mainline"
+      },
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.9-rc1.tar.gz",
+      "version" : "6.9.0-rc1"
    }
 ]
