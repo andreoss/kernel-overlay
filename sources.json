@@ -121,17 +121,17 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "a0239424e10e45c43252d5decc6978a3fa58e0d4d631d0855db57fa209f53165",
-      "date" : "2024-03-24",
+      "checksum" : "5ce1087e02d0ba7bfaf3cf09552e86dcb509e5d94d89dda0e20d397a14c4bf5a",
+      "date" : "2024-03-31",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.9-rc1",
+         "link" : "https://git.kernel.org/torvalds/h/v6.9-rc2",
          "pgp" : ""
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.9-rc1.tar.gz",
-      "version" : "6.9.0-rc1"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.9-rc2.tar.gz",
+      "version" : "6.9.0-rc2"
    }
 ]
