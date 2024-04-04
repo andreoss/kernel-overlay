@@ -90,7 +90,7 @@
       "version" : "6.6.24"
    },
    {
-      "category" : "stable",
+      "category" : "stable_eol",
       "checksum" : "6c2979e3948806a0dbacba193f8453ea42c179c1eb9f6136e3c35d87e5707984",
       "date" : "2024-04-03",
       "meta" : {
@@ -99,10 +99,10 @@
          "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.7.12.tar.sign"
       },
       "package" : {
-         "name" : "stable"
+         "name" : "6_7"
       },
       "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.7.12.tar.xz",
-      "version" : "6.7.12"
+      "version" : "6.7.12-eol"
    },
    {
       "category" : "stable",
