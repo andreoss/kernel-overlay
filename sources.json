@@ -76,18 +76,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "3e9ef879dae8319338eb0dc2d2c2025c13257fdeddf6245c000cb5a85a8af6f5",
-      "date" : "2024-04-03",
+      "checksum" : "99d210be87908233a55b0fadc0dccd3b95926c0651b6b82e37350b2029de1f44",
+      "date" : "2024-04-04",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.24",
-         "link" : "https://git.kernel.org/stable/h/v6.6.24",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.24.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.25",
+         "link" : "https://git.kernel.org/stable/h/v6.6.25",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.25.tar.sign"
       },
       "package" : {
          "name" : "6_6"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.24.tar.xz",
-      "version" : "6.6.24"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.25.tar.xz",
+      "version" : "6.6.25"
    },
    {
       "category" : "stable_eol",
@@ -106,18 +106,18 @@
    },
    {
       "category" : "stable",
-      "checksum" : "db7eb56d5014ee9a7fac0c715053155d92798d98d9197a2173eef1f0a496c986",
-      "date" : "2024-04-03",
+      "checksum" : "d5dec495fc00605fa9e04114df547fbc92b33d9ea7a4a2b7073c589590e79e63",
+      "date" : "2024-04-04",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.8.3",
-         "link" : "https://git.kernel.org/stable/h/v6.8.3",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.3.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.8.4",
+         "link" : "https://git.kernel.org/stable/h/v6.8.4",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.4.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.3.tar.xz",
-      "version" : "6.8.3"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.4.tar.xz",
+      "version" : "6.8.4"
    },
    {
       "category" : "mainline",
