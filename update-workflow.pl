@@ -24,9 +24,7 @@ write_file( $file, $json->encode($workflow) );
 sub update_readme() {
     my $f = 'README.md';
     my $c = read_file($f);
-    my @d =
-      map { [ $_->{version} => $_ ] }
-      sort { $b->{version} cmp $c->{version} } $sources->@*;
+    my @d = map { [ $_->{version} => $_ ] } sort { $b->{version} cmp $a->{version} } $sources->@*;
     my $m = "|Version|Package|Date|\n";
     $m.= "|---|---|---|\n";
     for my $k ( @d ) {
