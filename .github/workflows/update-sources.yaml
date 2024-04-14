@@ -18,6 +18,8 @@ jobs:
         run: nix flake update
       - name: Update sources.json
         run: ./update-sources.pl
+      - name: Update workflow
+        run: ./update-workflow.pl
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
