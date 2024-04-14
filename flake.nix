@@ -29,7 +29,7 @@
               inherit (pkgs) stdenv;
               version = p.version;
               configfile = ./config;
-              modDirVersion = "${p.version}-andreoss";
+              modDirVersion = "${p.version}";
               kernelPatches = map fetchPatch (patches.${name} or [ ]);
               allowImportFromDerivation = true;
               src = pkgs.fetchurl {
