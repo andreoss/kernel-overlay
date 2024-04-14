@@ -16,8 +16,14 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@v1
       - name: Update flake.lock
         run: nix flake update
+      - name: Commit flake.lock
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update flake.lock
       - name: Update sources.json
         run: ./update-sources.pl
+      - name: Update workflow
+        run: ./update-workflow.pl
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
