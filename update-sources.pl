@@ -78,13 +78,14 @@ for my $e ( $releases->find('tr')->each ) {
     my $checksum_url = $tarball =~ s[(?<=/)[^/]+$][sha256sums.asc]rs;
     my $checksum     = checksum( $checksum_url, $tarball );
 
-    if ( $version =~ /eol/i ) {
-        $category = 'stable_eol';
-    }
     if ( $version =~ /rc/i ) {
         $version =~ s/ (\d+) [.] (\d+) [-] (\w+) /$1.$2.0-$3/xgsm;
     }
     my $pversion = trim_version($version);
+    if ( $version =~ /eol/i ) {
+        $version  =~ s/-eol//i;
+        $pversion .= '_eol';
+    }
     push @sources,
       {
         category => $category,
