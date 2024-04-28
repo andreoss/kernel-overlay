@@ -7,7 +7,7 @@ Builds of vanilla Linux kernel for Nix.
 <!--START-->
 |Version|Package|Date|
 |---|---|---|
-|6.9.0-rc5|<b>mainline</b>|2024-04-21|
+|6.9.0-rc6|<b>mainline</b>|2024-04-28|
 |6.8.8|<b>stable</b>|2024-04-27|
 |6.7.12|<b>6_7</b>|2024-04-03|
 |6.6.29|<b>6_6</b>|2024-04-27|
