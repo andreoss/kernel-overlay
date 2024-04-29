@@ -61,18 +61,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "696902fd45c543168b638370464c44ffbfdf5f20003ae32b6145bbce3665f8d1",
-      "date" : "2024-04-27",
+      "checksum" : "12bab8e092618d1d4eeaf4201e6e70054c94896198956bd84ff0e908b0264719",
+      "date" : "2024-04-29",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.88",
-         "link" : "https://git.kernel.org/stable/h/v6.1.88",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.88.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.89",
+         "link" : "https://git.kernel.org/stable/h/v6.1.89",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.89.tar.sign"
       },
       "package" : {
          "name" : "6_1"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.88.tar.xz",
-      "version" : "6.1.88"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.89.tar.xz",
+      "version" : "6.1.89"
    },
    {
       "category" : "longterm",
