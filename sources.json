@@ -90,21 +90,6 @@
       "version" : "6.6.30"
    },
    {
-      "category" : "eol",
-      "checksum" : "6c2979e3948806a0dbacba193f8453ea42c179c1eb9f6136e3c35d87e5707984",
-      "date" : "2024-04-03",
-      "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.7.12",
-         "link" : "https://git.kernel.org/stable/h/v6.7.12",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.7.12.tar.sign"
-      },
-      "package" : {
-         "name" : "6_7"
-      },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.7.12.tar.xz",
-      "version" : "6.7.12"
-   },
-   {
       "category" : "stable",
       "checksum" : "f905f1238ea7a8e85314bacf283302e8097006010d25fcea726d0de0ea5bc9b6",
       "date" : "2024-05-02",
