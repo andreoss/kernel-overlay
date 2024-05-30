@@ -105,33 +105,33 @@
       "version" : "6.6.32"
    },
    {
-      "category" : "stable",
-      "checksum" : "b78dcd09f6b725872a2c0c87a70a064b0fbbcccfe5ce60aa46c669934a9e28b6",
-      "date" : "2024-05-25",
+      "category" : "eol",
+      "checksum" : "19b31956d229b5b9ca5671fa1c74320179682a3d8d00fc86794114b21da86039",
+      "date" : "2024-05-30",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.8.11",
-         "link" : "https://git.kernel.org/stable/h/v6.8.11",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.11.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.8.12",
+         "link" : "https://git.kernel.org/stable/h/v6.8.12",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.12.tar.sign"
       },
       "package" : {
-         "name" : "stable"
+         "name" : "6_8"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.11.tar.xz",
-      "version" : "6.8.11"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.12.tar.xz",
+      "version" : "6.8.12"
    },
    {
       "category" : "stable",
-      "checksum" : "d46c5bdf2c5961cc2a4dedefe0434d456865e95e4a7cd9f93fff054f9090e5f9",
-      "date" : "2024-05-25",
+      "checksum" : "c321c46401368774fc236f57095b205a5da57415f9a6008018902f9fd5eddfae",
+      "date" : "2024-05-30",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.9.2",
-         "link" : "https://git.kernel.org/stable/h/v6.9.2",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.9.2.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.9.3",
+         "link" : "https://git.kernel.org/stable/h/v6.9.3",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.9.3.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.9.2.tar.xz",
-      "version" : "6.9.2"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.9.3.tar.xz",
+      "version" : "6.9.3"
    }
 ]
