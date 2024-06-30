@@ -76,18 +76,18 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "5635c69b72ed1d9cd68a6f974f4d6cb311f0ffdee4adaeffa5d49922a7f21eaf",
-      "date" : "2024-06-23",
+      "checksum" : "0c62fe9205bd49d396c4dd75a1e203811fc2ff68ad03927d2f7d2d40cf40925e",
+      "date" : "2024-06-30",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.10-rc5",
+         "link" : "https://git.kernel.org/torvalds/h/v6.10-rc6",
          "pgp" : ""
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.10-rc5.tar.gz",
-      "version" : "6.10.0-rc5"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.10-rc6.tar.gz",
+      "version" : "6.10.0-rc6"
    },
    {
       "category" : "longterm",
@@ -103,21 +103,6 @@
       },
       "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.36.tar.xz",
       "version" : "6.6.36"
-   },
-   {
-      "category" : "eol",
-      "checksum" : "19b31956d229b5b9ca5671fa1c74320179682a3d8d00fc86794114b21da86039",
-      "date" : "2024-05-30",
-      "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.8.12",
-         "link" : "https://git.kernel.org/stable/h/v6.8.12",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.12.tar.sign"
-      },
-      "package" : {
-         "name" : "6_8"
-      },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.8.12.tar.xz",
-      "version" : "6.8.12"
    },
    {
       "category" : "stable",
