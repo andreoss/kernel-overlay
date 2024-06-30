@@ -1,6 +1,13 @@
 # Kernel overlay
 
-Builds of vanilla Linux kernel for Nix.
+Builds of the vanilla Linux kernel for Nix.
+
+The current releases are regularly pulled from https://kernel.org.
+Run `nix flake show github:andreoss/kernel-overlay' to see the exact versions.
+
+- `linuxPackages` is an alias for the latest `stable` release.
+- `linuxPackages_testing` is an alias for the latest `mainline` release.
+
 
 ## Available releases
 
@@ -18,16 +25,13 @@ Builds of vanilla Linux kernel for Nix.
 |4.19.316|<b>4_19</b>|2024-06-16|
 <!--END-->
 
-The currently available releases are regularly scrapped from https://kernel.org.
-Run `nix flake show github:andreoss/kernel-overlay` to see exact versions.
-
-- `linuxPackages` is an alias for the latest `stable` release.
-- `linuxPackages_testing` is an alias for the latest `mainline` release.
-
 ## Installation
 
 (Optional) Enable cachix substitutions in `nix.settings`.
-Note: this change will be applied only `nix-daemon` restart
+
+https://app.cachix.org/cache/kernel-overlay
+
+NOTE: This change will only have effect after a `nix-daemon' restart.
 
 ```
   nix.settings = {
@@ -69,7 +73,7 @@ Add as an input to a flake
 
 ```
 
-By default this overlays replaces the default kernel package. In order to use a specific one, specify it
+By default, this overlay replaces the default kernel package. To use a specific one, specify it
 in`configuration.nix`. For example
 
 ```
