@@ -76,18 +76,18 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "33b32ea6a84f016b2fe077c31f8ce1811048f8ec5d93f46b5e09e5b575fbc60d",
-      "date" : "2024-07-07",
+      "checksum" : "774698422ee54c5f1e704456f37c65c06b51b4e9a8b0866f34580d86fef8e226",
+      "date" : "2024-07-14",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.10-rc7",
-         "pgp" : ""
+         "link" : "https://git.kernel.org/torvalds/h/v6.10",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.tar.sign"
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.10-rc7.tar.gz",
-      "version" : "6.10.0-rc7"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.tar.xz",
+      "version" : "6.10"
    },
    {
       "category" : "longterm",
