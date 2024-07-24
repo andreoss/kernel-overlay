@@ -90,6 +90,21 @@
       "version" : "6.10"
    },
    {
+      "category" : "stable",
+      "checksum" : "70109dfd1cd1c5f8a58eb1cb37122b9bf93f9c6a6280bf91019263c7339cf76b",
+      "date" : "2024-07-24",
+      "meta" : {
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.10.1",
+         "link" : "https://git.kernel.org/stable/h/v6.10.1",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.1.tar.sign"
+      },
+      "package" : {
+         "name" : "stable"
+      },
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.1.tar.xz",
+      "version" : "6.10.1"
+   },
+   {
       "category" : "longterm",
       "checksum" : "9ec99c578158ab85d99b37791a76643d2ea4c3f72ecbef7b5eb6d60f3de032ef",
       "date" : "2024-07-18",
