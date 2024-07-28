@@ -75,21 +75,6 @@
       "version" : "6.1.102"
    },
    {
-      "category" : "mainline",
-      "checksum" : "774698422ee54c5f1e704456f37c65c06b51b4e9a8b0866f34580d86fef8e226",
-      "date" : "2024-07-14",
-      "meta" : {
-         "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.10",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.tar.sign"
-      },
-      "package" : {
-         "name" : "mainline"
-      },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.tar.xz",
-      "version" : "6.10"
-   },
-   {
       "category" : "stable",
       "checksum" : "73d8520dd9cba5acfc5e7208e76b35d9740b8aae38210a9224e32ec4c0d29b70",
       "date" : "2024-07-27",
@@ -103,6 +88,21 @@
       },
       "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.10.2.tar.xz",
       "version" : "6.10.2"
+   },
+   {
+      "category" : "mainline",
+      "checksum" : "2f0117d9fac64647342de60000136ffe8e04feb1f492435f852451de5cbc7649",
+      "date" : "2024-07-28",
+      "meta" : {
+         "changelog" : "",
+         "link" : "https://git.kernel.org/torvalds/h/v6.11-rc1",
+         "pgp" : ""
+      },
+      "package" : {
+         "name" : "mainline"
+      },
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.11-rc1.tar.gz",
+      "version" : "6.11.0-rc1"
    },
    {
       "category" : "longterm",
