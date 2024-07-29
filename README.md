@@ -14,7 +14,7 @@ Run `nix flake show github:andreoss/kernel-overlay' to see the exact versions.
 <!--START-->
 |Version|Package|Date|
 |---|---|---|
-|6.9.12|<b>stable</b>|2024-07-27|
+|6.9.12|<b>6_9</b>|2024-07-27|
 |6.6.43|<b>6_6</b>|2024-07-27|
 |6.11.0-rc1|<b>mainline</b>|2024-07-28|
 |6.10.2|<b>stable</b>|2024-07-27|
