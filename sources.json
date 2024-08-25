@@ -91,18 +91,18 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "a464891014ab9516cc4ca8cb3037a5cc3e7a23b7e51b899773ebb6d844e35d34",
-      "date" : "2024-08-18",
+      "checksum" : "48a12488747ee494c312fb59cf8f070a7b1c0da1eaa563b558835e2003394999",
+      "date" : "2024-08-25",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.11-rc4",
+         "link" : "https://git.kernel.org/torvalds/h/v6.11-rc5",
          "pgp" : ""
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.11-rc4.tar.gz",
-      "version" : "6.11.0-rc4"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.11-rc5.tar.gz",
+      "version" : "6.11.0-rc5"
    },
    {
       "category" : "longterm",
