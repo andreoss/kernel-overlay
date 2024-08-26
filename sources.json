@@ -118,20 +118,5 @@
       },
       "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.47.tar.xz",
       "version" : "6.6.47"
-   },
-   {
-      "category" : "eol",
-      "checksum" : "5ae7cc4e0e2f6b9ba630f643985ba0522c7d5e5b9571ba478a3cb513edd4cf22",
-      "date" : "2024-07-27",
-      "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.9.12",
-         "link" : "https://git.kernel.org/stable/h/v6.9.12",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.9.12.tar.sign"
-      },
-      "package" : {
-         "name" : "6_9"
-      },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.9.12.tar.xz",
-      "version" : "6.9.12"
    }
 ]
