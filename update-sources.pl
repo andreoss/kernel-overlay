@@ -81,6 +81,9 @@ for my $e ( $releases->find('tr')->each ) {
     if ( $version =~ /rc/i ) {
         $version =~ s/ (\d+) [.] (\d+) [-] (\w+) /$1.$2.0-$3/xgsm;
     }
+    if ( $version =~ /^[0-9]+[.][0-9]+$/i ) {
+        $version .= ".0";
+    }
     my $pversion = trim_version($version);
     if ( $version =~ /eol/i ) {
         $version  =~ s/-eol//i;
