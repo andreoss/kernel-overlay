@@ -54,6 +54,7 @@
                "version" : [
                   "stable",
                   "mainline",
+                  "mainline",
                   "6_6",
                   "6_1",
                   "5_4",

@@ -105,6 +105,21 @@
       "version" : "6.11.0"
    },
    {
+      "category" : "mainline",
+      "checksum" : "248f22796171a3d5809d76b019763cd4bb2a69f9a95d243ee614cea7eb3e578e",
+      "date" : "2024-09-29",
+      "meta" : {
+         "changelog" : "",
+         "link" : "https://git.kernel.org/torvalds/h/v6.12-rc1",
+         "pgp" : ""
+      },
+      "package" : {
+         "name" : "mainline"
+      },
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.12-rc1.tar.gz",
+      "version" : "6.12.0-rc1"
+   },
+   {
       "category" : "longterm",
       "checksum" : "1591ab348399d4aa53121158525056a69c8cf0fe0e90935b0095e9a58e37b4b8",
       "date" : "2024-09-18",
