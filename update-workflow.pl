@@ -21,10 +21,23 @@ $workflow->{jobs}->{build}->{strategy}->{matrix}->{version}->@* =
 
 write_file( $file, $json->encode($workflow) );
 
+sub to_number {
+    my $v = shift;
+    my $i = 100;
+    my $n = 0;
+    for my $d ($v =~ m/ (?<=[.-]|^) (\d+) (?=[.-]|$) /xgsm) {
+        $n *= $i; $n += $d; $i **= 2;
+    }
+    if ($v =~ /-rc(\d+)/) {
+        $n += 0.1 * $1;
+    }
+    return $n;
+}
+
 sub update_readme() {
     my $f = 'README.md';
     my $c = read_file($f);
-    my @d = map { [ $_->{version} => $_ ] } sort { $b->{version} <=> $a->{version} } $sources->@*;
+    my @d = map { [ $_->{version} => $_ ] } sort { to_number($b->{version}) <=> to_number($a->{version}) } $sources->@*;
     my $m = "|Version|Package|Date|\n";
     $m.= "|---|---|---|\n";
     for my $k ( @d ) {
