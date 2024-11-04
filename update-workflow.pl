@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#! nix-shell -i perl -p perl538 -p perl538Packages.JSON -p perl538Packages.FileSlurp -p perl538Packages.DataDump -p perl538Packages.ModernPerl -p perl538Packages.TextSimpleTable
+#! nix-shell -i perl -p perl540 -p perl540Packages.JSON -p perl540Packages.FileSlurp -p perl540Packages.DataDump -p perl540Packages.ModernPerl -p perl540Packages.TextSimpleTable
 
 use Text::SimpleTable;
 use Modern::Perl;

@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#! nix-shell -i perl -p perl536 -p perl536Packages.JSON -p perl536Packages.FileSlurp -p perl536Packages.Mojolicious -p perl536Packages.DataDump -p perl536Packages.IOSocketSSL -p wget
+#! nix-shell -i perl -p perl540 -p perl540Packages.JSON -p perl540Packages.FileSlurp -p perl540Packages.Mojolicious -p perl540Packages.DataDump -p perl540Packages.IOSocketSSL -p wget
 
 use strict;
 use warnings;
