@@ -31,18 +31,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "2953e064d8123c4c22c4fd48011378d73c8b99a3bf3d989e33f4f5c8f82f2a3b",
-      "date" : "2024-11-08",
+      "checksum" : "efa2245809c1b0c8d028b67b800fdd44c9bba7800b154ee492c2ba18ed33844d",
+      "date" : "2024-11-14",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.171",
-         "link" : "https://git.kernel.org/stable/h/v5.15.171",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.171.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.172",
+         "link" : "https://git.kernel.org/stable/h/v5.15.172",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.172.tar.sign"
       },
       "package" : {
          "name" : "5_15"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.171.tar.xz",
-      "version" : "5.15.171"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.172.tar.xz",
+      "version" : "5.15.172"
    },
    {
       "category" : "longterm",
@@ -61,18 +61,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "17eb68336ee2a8f34378bf6089ffe8f805b978eda314c299d2a63b0603833b81",
-      "date" : "2024-11-08",
+      "checksum" : "a8fbffe691974a3bf6a21d34eefad71a64c2a1fcc4513218356f1a87e390788b",
+      "date" : "2024-11-14",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.116",
-         "link" : "https://git.kernel.org/stable/h/v6.1.116",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.116.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.117",
+         "link" : "https://git.kernel.org/stable/h/v6.1.117",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.117.tar.sign"
       },
       "package" : {
          "name" : "6_1"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.116.tar.xz",
-      "version" : "6.1.116"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.117.tar.xz",
+      "version" : "6.1.117"
    },
    {
       "category" : "stable",
