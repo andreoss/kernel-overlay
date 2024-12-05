@@ -22,7 +22,7 @@ Run `nix flake show github:andreoss/kernel-overlay' to see the exact versions.
 |5.15.173|<b>5_15</b>|2024-11-17|
 |5.10.230|<b>5_10</b>|2024-11-17|
 |5.4.286|<b>5_4</b>|2024-11-17|
-|4.19.324|<b>4_19</b>|2024-11-17|
+|4.19.325|<b>4_19</b>|2024-12-05|
 <!--END-->
 
 ## Installation
