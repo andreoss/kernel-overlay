@@ -75,7 +75,7 @@
       "version" : "6.1.119"
    },
    {
-      "category" : "stable",
+      "category" : "eol",
       "checksum" : "62148e7e17f54c4a5ab5e75ad4882682c54bee818948be61a5963234fc0849fc",
       "date" : "2024-12-05",
       "meta" : {
@@ -84,7 +84,7 @@
          "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.11.11.tar.sign"
       },
       "package" : {
-         "name" : "stable"
+         "name" : "6_11"
       },
       "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.11.11.tar.xz",
       "version" : "6.11.11"
