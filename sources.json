@@ -16,18 +16,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "cd1850ef3b771886df4e0b4c4eb07033864abab2bb553a20fd9e3cdc23584b47",
-      "date" : "2024-11-17",
+      "checksum" : "565a4883cc460af9f338966fca51a84bcba13dc7e47a563e32639115cba79675",
+      "date" : "2024-12-14",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.10.230",
-         "link" : "https://git.kernel.org/stable/h/v5.10.230",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.230.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.10.231",
+         "link" : "https://git.kernel.org/stable/h/v5.10.231",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.231.tar.sign"
       },
       "package" : {
          "name" : "5_10"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.230.tar.xz",
-      "version" : "5.10.230"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.231.tar.xz",
+      "version" : "5.10.231"
    },
    {
       "category" : "longterm",
@@ -46,18 +46,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "180754f3df0e8d7f206625255b3f5a6e1f441feec83336df42613ca8f6b1887c",
-      "date" : "2024-11-17",
+      "checksum" : "0d0ffae5bf0e6f9c6a1ce42da2bc2a8696ca55721c103497eb1245be8cc04b20",
+      "date" : "2024-12-14",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.4.286",
-         "link" : "https://git.kernel.org/stable/h/v5.4.286",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.286.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.4.287",
+         "link" : "https://git.kernel.org/stable/h/v5.4.287",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.287.tar.sign"
       },
       "package" : {
          "name" : "5_4"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.286.tar.xz",
-      "version" : "5.4.286"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.287.tar.xz",
+      "version" : "5.4.287"
    },
    {
       "category" : "longterm",
