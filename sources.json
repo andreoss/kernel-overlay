@@ -106,18 +106,18 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "d55b2bfcb257df57019ca9ef9fab2f7dfec0a435fb515fe963d18d412ce67692",
-      "date" : "2024-12-08",
+      "checksum" : "78057b284cd3d4cd13431d1627e514ea58077460adfd898439fcab430f660909",
+      "date" : "2024-12-15",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.13-rc2",
+         "link" : "https://git.kernel.org/torvalds/h/v6.13-rc3",
          "pgp" : ""
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.13-rc2.tar.gz",
-      "version" : "6.13.0-rc2"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.13-rc3.tar.gz",
+      "version" : "6.13.0-rc3"
    },
    {
       "category" : "longterm",
