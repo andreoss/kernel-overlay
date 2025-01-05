@@ -1,20 +1,5 @@
 [
    {
-      "category" : "eol",
-      "checksum" : "607bed7de5cda31a443df4c8a78dbe5e8a9ad31afde2a4d28fe99ab4730e8de1",
-      "date" : "2024-12-05",
-      "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/ChangeLog-4.19.325",
-         "link" : "https://git.kernel.org/stable/h/v4.19.325",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.325.tar.sign"
-      },
-      "package" : {
-         "name" : "4_19"
-      },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.325.tar.xz",
-      "version" : "4.19.325"
-   },
-   {
       "category" : "longterm",
       "checksum" : "fda44589a438dff8c718082e9a48843b15e5eb82f6cc2f98d48f48226063bef0",
       "date" : "2024-12-19",
@@ -75,21 +60,6 @@
       "version" : "6.1.123"
    },
    {
-      "category" : "eol",
-      "checksum" : "62148e7e17f54c4a5ab5e75ad4882682c54bee818948be61a5963234fc0849fc",
-      "date" : "2024-12-05",
-      "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.11.11",
-         "link" : "https://git.kernel.org/stable/h/v6.11.11",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.11.11.tar.sign"
-      },
-      "package" : {
-         "name" : "6_11"
-      },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.11.11.tar.xz",
-      "version" : "6.11.11"
-   },
-   {
       "category" : "stable",
       "checksum" : "2291da065ca04b715c89ee50362aec3f021a7414bc963f1b56736682c8122979",
       "date" : "2025-01-02",
@@ -106,18 +76,18 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "239e682ad1b9e3b25d4786ea0cea8d9919f4582b6880e204dab2d7dbdae0187a",
-      "date" : "2024-12-29",
+      "checksum" : "72ea3f321bf17e34ff01cfc3562ea8164b19b343805d52b4d84cbdb4b3114d7f",
+      "date" : "2025-01-05",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.13-rc5",
+         "link" : "https://git.kernel.org/torvalds/h/v6.13-rc6",
          "pgp" : ""
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.13-rc5.tar.gz",
-      "version" : "6.13.0-rc5"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.13-rc6.tar.gz",
+      "version" : "6.13.0-rc6"
    },
    {
       "category" : "longterm",
