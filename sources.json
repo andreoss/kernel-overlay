@@ -46,18 +46,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "d9f2355d5f7e42f63ef9b51bf146f99f8a3cd6d999bc201394f14f54db100b3c",
-      "date" : "2025-01-17",
+      "checksum" : "c91920b34aec412fa6deb6ae3f22ffb41879bf07115a5e224edf4f2778be1790",
+      "date" : "2025-01-19",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.125",
-         "link" : "https://git.kernel.org/stable/h/v6.1.125",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.125.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.126",
+         "link" : "https://git.kernel.org/stable/h/v6.1.126",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.126.tar.sign"
       },
       "package" : {
          "name" : "6_1"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.125.tar.xz",
-      "version" : "6.1.125"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.126.tar.xz",
+      "version" : "6.1.126"
    },
    {
       "category" : "stable",
