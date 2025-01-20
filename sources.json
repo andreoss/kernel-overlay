@@ -76,18 +76,18 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "2ee49b0fd7d9b556dd226ca3882b0c0b1f5fb5bd29f6040e6286d9af10f966f0",
-      "date" : "2025-01-12",
+      "checksum" : "e79dcc6eb86695c6babfb07c2861912b635d5075c6cd1cd0567d1ea155f80d6e",
+      "date" : "2025-01-19",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.13-rc7",
-         "pgp" : ""
+         "link" : "https://git.kernel.org/torvalds/h/v6.13",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.tar.sign"
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.13-rc7.tar.gz",
-      "version" : "6.13.0-rc7"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.tar.xz",
+      "version" : "6.13.0"
    },
    {
       "category" : "longterm",
