@@ -61,18 +61,18 @@
    },
    {
       "category" : "stable",
-      "checksum" : "f3ebdeea9e555b4cface44e29670056f4024541e6bd222fbcf776c818974fbba",
-      "date" : "2025-02-08",
+      "checksum" : "9423f4bfb4d875417e39cb0b017b5499fea47da56119f0cd28a201735d898f14",
+      "date" : "2025-02-17",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.13",
-         "link" : "https://git.kernel.org/stable/h/v6.12.13",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.13.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.14",
+         "link" : "https://git.kernel.org/stable/h/v6.12.14",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.14.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.13.tar.xz",
-      "version" : "6.12.13"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.14.tar.xz",
+      "version" : "6.12.14"
    },
    {
       "category" : "stable",
