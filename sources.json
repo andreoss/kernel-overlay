@@ -61,33 +61,33 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "5f81362a694f51520bff9faecb73f1cc9bc7bece6fdd10d5c27e348df39d7dc4",
-      "date" : "2025-02-21",
+      "checksum" : "5c205cd34f80974e4973e321cb008f5f6895a8aa8c2577f06a9448cd77de63b3",
+      "date" : "2025-02-27",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.16",
-         "link" : "https://git.kernel.org/stable/h/v6.12.16",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.16.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.17",
+         "link" : "https://git.kernel.org/stable/h/v6.12.17",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.17.tar.sign"
       },
       "package" : {
          "name" : "6_12"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.16.tar.xz",
-      "version" : "6.12.16"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.17.tar.xz",
+      "version" : "6.12.17"
    },
    {
       "category" : "stable",
-      "checksum" : "b80e0bc8efbc31e9ce5a84d1084dcccfa40e01bea8cc25afd06648b93d61339e",
-      "date" : "2025-02-21",
+      "checksum" : "283ecb0784f3fbc16dd822fb1d9642e230ec7515ed33f120e551b839f355e6e2",
+      "date" : "2025-02-27",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.13.4",
-         "link" : "https://git.kernel.org/stable/h/v6.13.4",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.4.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.13.5",
+         "link" : "https://git.kernel.org/stable/h/v6.13.5",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.5.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.4.tar.xz",
-      "version" : "6.13.4"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.5.tar.xz",
+      "version" : "6.13.5"
    },
    {
       "category" : "mainline",
