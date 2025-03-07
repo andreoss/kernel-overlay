@@ -4,7 +4,7 @@ jobs:
   nix_parsing:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: cachix/install-nix-action@v12
       - name: Check Nix parsing
         run: |
@@ -12,10 +12,39 @@ jobs:
   nix_formatting:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: cachix/install-nix-action@v18
         with:
           nix_path: nixpkgs=channel:nixos-unstable
       - name: Check Nix formatting
         run: |
           nix-shell -p nixfmt --run 'find . -name "*.nix" -a \! -path "./secrets/*" -exec nixfmt --check {} \;'
+  rust_clippy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Rust
+        run: rustup update stable && rustup default stable
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y libssl-dev pkg-config
+      - name: Run clippy
+        run: |
+          cargo clippy --all-targets --all-features -- -D warnings -A clippy::all -A unsafe_code
+  rust_format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Rust
+        run: rustup update stable && rustup default stable
+      - name: Check formatting
+        run: cargo fmt --check
+  rust_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Rust
+        run: rustup update stable && rustup default stable
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y libssl-dev pkg-config
+      - name: Run tests
+        run: cargo test

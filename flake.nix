@@ -70,9 +70,38 @@
           };
         };
       in
+      let
+        cleanSource = lib.cleanSourceWith {
+          src = ./.;
+          filter =
+            path: type:
+            !builtins.elem (baseNameOf path) [
+              ".git"
+              "result"
+              ".nixignore"
+            ];
+        };
+      in
       {
         nixosConfigurations = merge (map mkNixos sources);
-        packages = kpkgs;
+        packages = kpkgs // {
+          kernel-overlay = pkgs.rustPlatform.buildRustPackage {
+            pname = "kernel-overlay";
+            version = "0.1.0";
+            src = cleanSource;
+            cargoHash = "sha256-PBOqUnsRMQLjsx9ODq6hLr4oKa7L6tVFcxFwWZpmh7w=";
+            buildInputs = with pkgs; [ openssl ];
+            nativeBuildInputs = with pkgs; [ pkg-config ];
+          };
+        };
+        devShells.default = pkgs.mkShell {
+          buildInputs = with pkgs; [
+            rustup
+            cargo
+            openssl
+            pkg-config
+          ];
+        };
         overlays.default = final: prev: {
           linux = kpkgs.linux_stable;
           linux_testing = kpkgs.linux_mainline;

@@ -1,15 +1,15 @@
 name: update-sources
 on:
-  workflow_dispatch: # allows manual triggering
+  workflow_dispatch:
   schedule:
     - cron: '0 * * * *'
 
 jobs:
-  lockfile:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT }}
       - name: Install Nix
@@ -17,14 +17,16 @@ jobs:
       - name: Update flake.lock
         run: nix flake update
       - name: Commit flake.lock
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update flake.lock
-      - name: Update sources.json
-        run: ./update-sources.pl
+      - name: Build kernel-overlay
+        run: nix build .#kernel-overlay
+      - name: Update sources
+        run: ./result/bin/kernel-overlay update-sources
       - name: Update workflow
-        run: ./update-workflow.pl
+        run: ./result/bin/kernel-overlay update-workflow
       - name: Commit
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update source.json
+          commit_message: Update sources.json and workflow
