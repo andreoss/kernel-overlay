@@ -91,18 +91,18 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "8a561039df48c5e6044655cfb771b9014fbd7df675dfbcc52bf29fbb7011d94c",
-      "date" : "2025-03-16",
+      "checksum" : "a294b683e7b161bb0517bb32ec7ed1d2ea7603dfbabad135170ed12d00c47670",
+      "date" : "2025-03-24",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.14-rc7",
-         "pgp" : ""
+         "link" : "https://git.kernel.org/torvalds/h/v6.14",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.tar.sign"
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.14-rc7.tar.gz",
-      "version" : "6.14.0-rc7"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.tar.xz",
+      "version" : "6.14.0"
    },
    {
       "category" : "longterm",
