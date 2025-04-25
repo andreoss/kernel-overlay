@@ -46,33 +46,33 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "60c70cdd70ddee384c004242e67844e3dd1fe28f75b26b3586859fff0a07bd23",
-      "date" : "2025-04-10",
+      "checksum" : "e9d17ae1ff96a771e0c5061a50cf9209ce457cf28c8e01165d611523f3957eb9",
+      "date" : "2025-04-25",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.134",
-         "link" : "https://git.kernel.org/stable/h/v6.1.134",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.134.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.135",
+         "link" : "https://git.kernel.org/stable/h/v6.1.135",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.135.tar.sign"
       },
       "package" : {
          "name" : "6_1"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.134.tar.xz",
-      "version" : "6.1.134"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.135.tar.xz",
+      "version" : "6.1.135"
    },
    {
       "category" : "longterm",
-      "checksum" : "643142c1b5991560dd12f950825cc19e4497b95b82641918ecff1177f4130c1d",
-      "date" : "2025-04-20",
+      "checksum" : "c8af780f6f613ca24622116e4c512a764335ab66e75c6643003c16e49a8e3b90",
+      "date" : "2025-04-25",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.24",
-         "link" : "https://git.kernel.org/stable/h/v6.12.24",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.24.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.25",
+         "link" : "https://git.kernel.org/stable/h/v6.12.25",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.25.tar.sign"
       },
       "package" : {
          "name" : "6_12"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.24.tar.xz",
-      "version" : "6.12.24"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.25.tar.xz",
+      "version" : "6.12.25"
    },
    {
       "category" : "eol",
@@ -91,18 +91,18 @@
    },
    {
       "category" : "stable",
-      "checksum" : "91c6c322c32568f09922a02ed35f46372ca8526714c6555b3115b9e9c156652a",
-      "date" : "2025-04-20",
+      "checksum" : "9452f28d7a0051fba4886712395b484c4c7fcf9f85944a62fd3d97dc923f5339",
+      "date" : "2025-04-25",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.14.3",
-         "link" : "https://git.kernel.org/stable/h/v6.14.3",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.3.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.14.4",
+         "link" : "https://git.kernel.org/stable/h/v6.14.4",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.4.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.3.tar.xz",
-      "version" : "6.14.3"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.4.tar.xz",
+      "version" : "6.14.4"
    },
    {
       "category" : "mainline",
@@ -121,17 +121,17 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "8957e5c2dacdbc47a16dbf1f6303ca7088409be6197a3881f752313275357ac6",
-      "date" : "2025-04-10",
+      "checksum" : "19df89b63ef7e950de7297dabfac0569183bf87636f4c300a25336c7da490650",
+      "date" : "2025-04-25",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.87",
-         "link" : "https://git.kernel.org/stable/h/v6.6.87",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.87.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.88",
+         "link" : "https://git.kernel.org/stable/h/v6.6.88",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.88.tar.sign"
       },
       "package" : {
          "name" : "6_6"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.87.tar.xz",
-      "version" : "6.6.87"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.88.tar.xz",
+      "version" : "6.6.88"
    }
 ]
