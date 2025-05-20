@@ -75,21 +75,6 @@
       "version" : "6.12.29"
    },
    {
-      "category" : "eol",
-      "checksum" : "611fbb669cf5539da48137a9c052becd499f3f862afaf21ab84cea3966221242",
-      "date" : "2025-04-20",
-      "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.13.12",
-         "link" : "https://git.kernel.org/stable/h/v6.13.12",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.12.tar.sign"
-      },
-      "package" : {
-         "name" : "6_13"
-      },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.13.12.tar.xz",
-      "version" : "6.13.12"
-   },
-   {
       "category" : "stable",
       "checksum" : "8112202bc26d086957a94d2109a6dcd4478c5ba18d0f0a5e1c5dfeea01f54972",
       "date" : "2025-05-18",
