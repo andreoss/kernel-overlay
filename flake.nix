@@ -1,8 +1,16 @@
 {
   description = "Kernel overlay";
-  inputs = { flake-utils.url = "github:numtide/flake-utils"; };
-  outputs = { self, nixpkgs, flake-utils }:
-    flake-utils.lib.eachDefaultSystem (system:
+  inputs = {
+    flake-utils.url = "github:numtide/flake-utils";
+  };
+  outputs =
+    {
+      self,
+      nixpkgs,
+      flake-utils,
+    }:
+    flake-utils.lib.eachDefaultSystem (
+      system:
       let
         systems = lib.systems.flakeExposed;
         lib = nixpkgs.lib;
@@ -21,9 +29,12 @@
           extraConfig = p.config or "";
         };
         mkName = n: p: "${n}_${p.package.name}";
-        mkLinuxPackages = p:
-          let name = mkName "linux" p;
-          in {
+        mkLinuxPackages =
+          p:
+          let
+            name = mkName "linux" p;
+          in
+          {
             ${name} = pkgs.linuxKernel.manualConfig {
               inherit lib;
               inherit (pkgs) stdenv;
@@ -37,25 +48,29 @@
                 sha256 = p.checksum;
               };
             };
-            ${mkName "linuxPackages" p} = pkgs.recurseIntoAttrs
-              (pkgs.linuxPackagesFor self.outputs.packages.${system}.${name});
+            ${mkName "linuxPackages" p} = pkgs.recurseIntoAttrs (
+              pkgs.linuxPackagesFor self.outputs.packages.${system}.${name}
+            );
           };
         kpkgs = merge (map (x: mkLinuxPackages x) sources);
         mkNixos = p: {
           ${mkName "vm" p} = nixpkgs.lib.nixosSystem {
             inherit system;
             modules = [
-              ({ config, pkgs, ... }: {
-                nixpkgs.config = { allowUnfree = true; };
-                system.stateVersion = "23.05";
-                boot.extraModulePackages = with config.boot.kernelPackages; [ ];
-                boot.kernelPackages = kpkgs.${mkName "linuxPackages" p};
-                virtualisation = { };
-              })
+              (
+                { config, pkgs, ... }:
+                {
+                  system.stateVersion = "25.11";
+                  boot.extraModulePackages = with config.boot.kernelPackages; [ ];
+                  boot.kernelPackages = kpkgs.${mkName "linuxPackages" p};
+                  virtualisation = { };
+                }
+              )
             ];
           };
         };
-      in {
+      in
+      {
         nixosConfigurations = merge (map mkNixos sources);
         packages = kpkgs;
         overlays.default = final: prev: {
@@ -64,5 +79,6 @@
           linuxPackages = kpkgs.linuxPackages_stable;
           linuxPackages_testing = kpkgs.linuxPackages_mainline;
         };
-      });
+      }
+    );
 }
