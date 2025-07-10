@@ -16,18 +16,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "9c4efdd7ee550d524c017b5dae27725374526311e983661850cd880af671cb2a",
-      "date" : "2025-06-27",
+      "checksum" : "21786ee84981418279fcd60ae6ed98ab2f102b5a4a255bd81b881033f0afff14",
+      "date" : "2025-07-10",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.186",
-         "link" : "https://git.kernel.org/stable/h/v5.15.186",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.186.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.187",
+         "link" : "https://git.kernel.org/stable/h/v5.15.187",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.187.tar.sign"
       },
       "package" : {
          "name" : "5_15"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.186.tar.xz",
-      "version" : "5.15.186"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.187.tar.xz",
+      "version" : "5.15.187"
    },
    {
       "category" : "longterm",
@@ -46,18 +46,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "e25bdac4d77e6b1079f899e2ecb24c7e850f295e735ea7b5654b900d85c03b0a",
-      "date" : "2025-07-06",
+      "checksum" : "0f49bda42fbd7506063d537fec7d4d147c373a0324655fdaf2a65a000c9f7acf",
+      "date" : "2025-07-10",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.143",
-         "link" : "https://git.kernel.org/stable/h/v6.1.143",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.143.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.144",
+         "link" : "https://git.kernel.org/stable/h/v6.1.144",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.144.tar.sign"
       },
       "package" : {
          "name" : "6_1"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.143.tar.xz",
-      "version" : "6.1.143"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.144.tar.xz",
+      "version" : "6.1.144"
    },
    {
       "category" : "longterm",
@@ -73,21 +73,6 @@
       },
       "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.36.tar.xz",
       "version" : "6.12.36"
-   },
-   {
-      "category" : "eol",
-      "checksum" : "3f1ccd0a6dc9c9777cb6fcef357c77e4a2386c84c52b6d5bbcda79c16af33b1b",
-      "date" : "2025-06-10",
-      "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.14.11",
-         "link" : "https://git.kernel.org/stable/h/v6.14.11",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.11.tar.sign"
-      },
-      "package" : {
-         "name" : "6_14"
-      },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.11.tar.xz",
-      "version" : "6.14.11"
    },
    {
       "category" : "stable",
