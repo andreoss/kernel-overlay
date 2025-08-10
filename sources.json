@@ -105,6 +105,21 @@
       "version" : "6.16.0"
    },
    {
+      "category" : "mainline",
+      "checksum" : "9bf5d793e50e5658dc8e524a97bfb5fc52e6171ea68a1a1aa5f47c806e85a9f9",
+      "date" : "2025-08-10",
+      "meta" : {
+         "changelog" : "",
+         "link" : "https://git.kernel.org/torvalds/h/v6.17-rc1",
+         "pgp" : ""
+      },
+      "package" : {
+         "name" : "mainline"
+      },
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.17-rc1.tar.gz",
+      "version" : "6.17.0-rc1"
+   },
+   {
       "category" : "longterm",
       "checksum" : "8c4ff2869736538b9b0d88ea8dbf0332b79c6ecc40a32066768a754df1fae1c0",
       "date" : "2025-08-01",
