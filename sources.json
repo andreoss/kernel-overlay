@@ -90,19 +90,19 @@
       "version" : "6.15.10"
    },
    {
-      "category" : "mainline",
-      "checksum" : "1a4be2fe6b5246aa4ac8987a8a4af34c42a8dd7d08b46ab48516bcc1befbcd83",
-      "date" : "2025-07-27",
+      "category" : "stable",
+      "checksum" : "ea43491bc7ace1e414b3b2d957f8cf96e7049155123f0acce798accf8da1acba",
+      "date" : "2025-08-15",
       "meta" : {
-         "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.16",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.16.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.16.1",
+         "link" : "https://git.kernel.org/stable/h/v6.16.1",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.16.1.tar.sign"
       },
       "package" : {
-         "name" : "mainline"
+         "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.16.tar.xz",
-      "version" : "6.16.0"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.16.1.tar.xz",
+      "version" : "6.16.1"
    },
    {
       "category" : "mainline",
