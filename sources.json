@@ -106,18 +106,18 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "9bf5d793e50e5658dc8e524a97bfb5fc52e6171ea68a1a1aa5f47c806e85a9f9",
-      "date" : "2025-08-10",
+      "checksum" : "b833702fa60a35e1cd3c553436cfdd9c997d33943ab6dc42782955e5c20f0c98",
+      "date" : "2025-08-17",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.17-rc1",
+         "link" : "https://git.kernel.org/torvalds/h/v6.17-rc2",
          "pgp" : ""
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.17-rc1.tar.gz",
-      "version" : "6.17.0-rc1"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.17-rc2.tar.gz",
+      "version" : "6.17.0-rc2"
    },
    {
       "category" : "longterm",
