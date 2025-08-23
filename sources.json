@@ -91,18 +91,18 @@
    },
    {
       "category" : "stable",
-      "checksum" : "b760a6fa793d774fbd3b7fa0bea3efd5c4f5294dfb98ef1bd5f6d5f7cef4f06d",
-      "date" : "2025-08-20",
+      "checksum" : "80439ba055c12f541abf44b8fc3c9b825a8f42fc25ce67462ec7e556c5790b85",
+      "date" : "2025-08-23",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.16.2",
-         "link" : "https://git.kernel.org/stable/h/v6.16.2",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.16.2.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.16.3",
+         "link" : "https://git.kernel.org/stable/h/v6.16.3",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.16.3.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.16.2.tar.xz",
-      "version" : "6.16.2"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.16.3.tar.xz",
+      "version" : "6.16.3"
    },
    {
       "category" : "mainline",
