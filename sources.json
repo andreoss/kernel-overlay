@@ -1,33 +1,33 @@
 [
    {
       "category" : "longterm",
-      "checksum" : "08c1e982064c81f8445a8fff2293d430c716c11fd3185606b8275718d696d8d6",
-      "date" : "2025-08-28",
+      "checksum" : "bc3ae7003174e26c9a39534cfb8d66cee1a0ba6e1dd0381a9fe092f9de6ba9cd",
+      "date" : "2025-09-04",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.10.241",
-         "link" : "https://git.kernel.org/stable/h/v5.10.241",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.241.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.10.242",
+         "link" : "https://git.kernel.org/stable/h/v5.10.242",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.242.tar.sign"
       },
       "package" : {
          "name" : "5_10"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.241.tar.xz",
-      "version" : "5.10.241"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.242.tar.xz",
+      "version" : "5.10.242"
    },
    {
       "category" : "longterm",
-      "checksum" : "62b814f1a48e1d67764a28611f23ca1f1ce1084ad7f1d319acc05720a9a68604",
-      "date" : "2025-08-28",
+      "checksum" : "7a2db3ac34a3edb6f497204cc287497c29bb3218fdb7876951f8bceac46e924e",
+      "date" : "2025-09-04",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.190",
-         "link" : "https://git.kernel.org/stable/h/v5.15.190",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.190.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.191",
+         "link" : "https://git.kernel.org/stable/h/v5.15.191",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.191.tar.sign"
       },
       "package" : {
          "name" : "5_15"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.190.tar.xz",
-      "version" : "5.15.190"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.191.tar.xz",
+      "version" : "5.15.191"
    },
    {
       "category" : "longterm",
