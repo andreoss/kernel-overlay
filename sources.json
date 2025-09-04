@@ -31,18 +31,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "f10cfcea7acf7588087d7cc17ebeeb7d3ff783c040536698c544eed7c5e8a841",
-      "date" : "2025-08-28",
+      "checksum" : "01163bed1abadc1e5e6480f0d694c360281cbff3446023c2e015f1e24504e4e6",
+      "date" : "2025-09-04",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.4.297",
-         "link" : "https://git.kernel.org/stable/h/v5.4.297",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.297.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.4.298",
+         "link" : "https://git.kernel.org/stable/h/v5.4.298",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.298.tar.sign"
       },
       "package" : {
          "name" : "5_4"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.297.tar.xz",
-      "version" : "5.4.297"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.298.tar.xz",
+      "version" : "5.4.298"
    },
    {
       "category" : "longterm",
