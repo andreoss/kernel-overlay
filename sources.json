@@ -75,21 +75,6 @@
       "version" : "6.12.48"
    },
    {
-      "category" : "eol",
-      "checksum" : "89ab469fc35bd9cbc6c5bf4e5cb802581806d5cbc14fb47e5c9edcc477e65d93",
-      "date" : "2025-08-20",
-      "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.15.11",
-         "link" : "https://git.kernel.org/stable/h/v6.15.11",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.15.11.tar.sign"
-      },
-      "package" : {
-         "name" : "6_15"
-      },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.15.11.tar.xz",
-      "version" : "6.15.11"
-   },
-   {
       "category" : "stable",
       "checksum" : "231311bd7084dc3129944d26bb43be6ff837da82fb2104a67704aebca8bfa69f",
       "date" : "2025-09-19",
@@ -106,18 +91,18 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "b82705dcbaf2387071a7d34d929e99836e5cb128538812f2ed3de46b7f2cffa9",
-      "date" : "2025-09-14",
+      "checksum" : "a9fcbb10ac379dbacba636e2e330733317d4d0069770d5ac6a61132f23c7dc80",
+      "date" : "2025-09-21",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.17-rc6",
+         "link" : "https://git.kernel.org/torvalds/h/v6.17-rc7",
          "pgp" : ""
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.17-rc6.tar.gz",
-      "version" : "6.17.0-rc6"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.17-rc7.tar.gz",
+      "version" : "6.17.0-rc7"
    },
    {
       "category" : "longterm",
