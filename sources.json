@@ -91,18 +91,18 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "a9fcbb10ac379dbacba636e2e330733317d4d0069770d5ac6a61132f23c7dc80",
-      "date" : "2025-09-21",
+      "checksum" : "9b607166a1c999d8326098121222feb080a20a3253975fcdfa2de96ba7f757a7",
+      "date" : "2025-09-28",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.17-rc7",
-         "pgp" : ""
+         "link" : "https://git.kernel.org/torvalds/h/v6.17",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.tar.sign"
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.17-rc7.tar.gz",
-      "version" : "6.17.0-rc7"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.tar.xz",
+      "version" : "6.17.0"
    },
    {
       "category" : "longterm",
