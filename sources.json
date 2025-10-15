@@ -61,18 +61,18 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "b4850cf670a032c70f38b713a27d62046c5f747caf028c5f50b18f98606a9eb1",
-      "date" : "2025-10-12",
+      "checksum" : "663507accae673afcf4e210b4ae8d4352e61d926202e5da3f04bf71ca1d2c0b5",
+      "date" : "2025-10-15",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.52",
-         "link" : "https://git.kernel.org/stable/h/v6.12.52",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.52.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.53",
+         "link" : "https://git.kernel.org/stable/h/v6.12.53",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.53.tar.sign"
       },
       "package" : {
          "name" : "6_12"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.52.tar.xz",
-      "version" : "6.12.52"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.53.tar.xz",
+      "version" : "6.12.53"
    },
    {
       "category" : "eol",
@@ -91,18 +91,18 @@
    },
    {
       "category" : "stable",
-      "checksum" : "fdebcb065065f5c1b8dc68a6fb59cda50cdddbf9103d207c2196d55ea764f57f",
-      "date" : "2025-10-12",
+      "checksum" : "3ecc8619d8a5b5f675224d2f52c71d1fc09bc3f9c019d8bd82d0581e03689499",
+      "date" : "2025-10-15",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.17.2",
-         "link" : "https://git.kernel.org/stable/h/v6.17.2",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.2.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.17.3",
+         "link" : "https://git.kernel.org/stable/h/v6.17.3",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.3.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.2.tar.xz",
-      "version" : "6.17.2"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.3.tar.xz",
+      "version" : "6.17.3"
    },
    {
       "category" : "mainline",
