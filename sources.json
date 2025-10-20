@@ -106,18 +106,18 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "82351c8b66b6aadbb70e4393af665b1d85ba2cfb2c05512b0bbb4b5cfc2769af",
-      "date" : "2025-10-12",
+      "checksum" : "fd0b6a8f757ba37b3a9f5ad6c4f32f733f3291e46b0afeb5361fbc92ff3cee4e",
+      "date" : "2025-10-20",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.18-rc1",
+         "link" : "https://git.kernel.org/torvalds/h/v6.18-rc2",
          "pgp" : ""
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.18-rc1.tar.gz",
-      "version" : "6.18.0-rc1"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.18-rc2.tar.gz",
+      "version" : "6.18.0-rc2"
    },
    {
       "category" : "longterm",
