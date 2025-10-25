@@ -45,7 +45,7 @@
             "matrix" : {
                "channel" : [
                   "nixos-unstable",
-                  "nixos-24.05"
+                  "nixos-25.05"
                ],
                "version" : [
                   "stable",
