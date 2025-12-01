@@ -61,33 +61,33 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "a1d2cd7327f10eec022615c1bb12c06439bd110d2020164be97f698f43ca58be",
-      "date" : "2025-11-24",
+      "checksum" : "a63096b2147411d683cecbf87622bb2ff4885bac2b3641d3d4f10250c89cdcf8",
+      "date" : "2025-12-01",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.59",
-         "link" : "https://git.kernel.org/stable/h/v6.12.59",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.59.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.60",
+         "link" : "https://git.kernel.org/stable/h/v6.12.60",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.60.tar.sign"
       },
       "package" : {
          "name" : "6_12"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.59.tar.xz",
-      "version" : "6.12.59"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.60.tar.xz",
+      "version" : "6.12.60"
    },
    {
       "category" : "stable",
-      "checksum" : "6d08803b953c509df48d44d3281ed392524321d8bb353eb21c0555790c8f8e06",
-      "date" : "2025-11-24",
+      "checksum" : "fa7f344f3a50dad0af2e0066d51bd3b9183fd24587861042343ded3d1fd5c8cd",
+      "date" : "2025-12-01",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.17.9",
-         "link" : "https://git.kernel.org/stable/h/v6.17.9",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.9.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.17.10",
+         "link" : "https://git.kernel.org/stable/h/v6.17.10",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.10.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.9.tar.xz",
-      "version" : "6.17.9"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.10.tar.xz",
+      "version" : "6.17.10"
    },
    {
       "category" : "mainline",
@@ -106,17 +106,17 @@
    },
    {
       "category" : "longterm",
-      "checksum" : "643b31079222fdbda70cfdd0b68c514f05a3926104be4762a4685f62818b43d1",
-      "date" : "2025-11-24",
+      "checksum" : "4bdddce35474afc8d26f74ebfbcd0e1045ecd15f69e60f53529dba143374b17d",
+      "date" : "2025-12-01",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.117",
-         "link" : "https://git.kernel.org/stable/h/v6.6.117",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.117.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.118",
+         "link" : "https://git.kernel.org/stable/h/v6.6.118",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.118.tar.sign"
       },
       "package" : {
          "name" : "6_6"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.117.tar.xz",
-      "version" : "6.6.117"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.118.tar.xz",
+      "version" : "6.6.118"
    }
 ]
