@@ -30,19 +30,19 @@
       "version" : "5.15.196"
    },
    {
-      "category" : "longterm",
-      "checksum" : "b7718766d060e6714bbe47004c71c360e844758f42fbf62cbaa5571119527962",
-      "date" : "2025-10-29",
+      "category" : "eol",
+      "checksum" : "ae6a3207f12aa4d6cfb0fa793ec9da4a6fcdfdcb57d869d63d6b77e3a8c1423d",
+      "date" : "2025-12-03",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.4.301",
-         "link" : "https://git.kernel.org/stable/h/v5.4.301",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.301.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.4.302",
+         "link" : "https://git.kernel.org/stable/h/v5.4.302",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.302.tar.sign"
       },
       "package" : {
          "name" : "5_4"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.301.tar.xz",
-      "version" : "5.4.301"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.302.tar.xz",
+      "version" : "5.4.302"
    },
    {
       "category" : "longterm",
