@@ -75,7 +75,7 @@
       "version" : "6.12.63"
    },
    {
-      "category" : "stable",
+      "category" : "eol",
       "checksum" : "116802dc3ad1646163cc6ffe9bddba24a8069b569135ec0523cd799064f2edb9",
       "date" : "2025-12-18",
       "meta" : {
@@ -84,7 +84,7 @@
          "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.13.tar.sign"
       },
       "package" : {
-         "name" : "stable"
+         "name" : "6_17"
       },
       "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.13.tar.xz",
       "version" : "6.17.13"
