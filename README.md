@@ -2,12 +2,15 @@
 
 Builds of the vanilla Linux kernel for Nix.
 
-The current releases are regularly pulled from https://kernel.org.
-Run `nix flake show github:andreoss/kernel-overlay' to see the exact versions.
+Current releases are regularly pulled from https://kernel.org.
+Run the followin command to see exact versions.
 
-- `linuxPackages` is an alias for the latest `stable` release.
-- `linuxPackages_testing` is an alias for the latest `mainline` release.
+```sh
+nix flake show github:andreoss/kernel-overlay
+``` 
 
+- `linuxPackages` is an alias for the latest **stable** release.  
+- `linuxPackages_testing` is an alias for the latest **mainline** release.
 
 ## Available releases
 
@@ -73,8 +76,9 @@ Add as an input to a flake
 
 ```
 
-By default, this overlay replaces the default kernel package. To use a specific one, specify it
-in`configuration.nix`. For example
+By default, this overlay replaces the default kernel package. 
+
+To use a specific one, specify it in`configuration.nix`. For example
 
 ```
   boot.kernelPackages = pkgs.linuxPackages_4_14;
