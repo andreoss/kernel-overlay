@@ -3,7 +3,7 @@
 Builds of the vanilla Linux kernel for Nix.
 
 Current releases are regularly pulled from https://kernel.org.
-Run the followin command to see exact versions.
+Run the following command to see the exact versions:
 
 ```sh
 nix flake show github:andreoss/kernel-overlay
@@ -76,9 +76,9 @@ Add as an input to a flake
 
 ```
 
-By default, this overlay replaces the default kernel package. 
+By default, this overlay replaces the default kernel package.
 
-To use a specific one, specify it in`configuration.nix`. For example
+To use a specific kernel, set it in configuration.nix. For example:
 
 ```
   boot.kernelPackages = pkgs.linuxPackages_4_14;
