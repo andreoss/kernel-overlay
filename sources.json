@@ -30,21 +30,6 @@
       "version" : "5.15.197"
    },
    {
-      "category" : "eol",
-      "checksum" : "ae6a3207f12aa4d6cfb0fa793ec9da4a6fcdfdcb57d869d63d6b77e3a8c1423d",
-      "date" : "2025-12-03",
-      "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.4.302",
-         "link" : "https://git.kernel.org/stable/h/v5.4.302",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.302.tar.sign"
-      },
-      "package" : {
-         "name" : "5_4"
-      },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.302.tar.xz",
-      "version" : "5.4.302"
-   },
-   {
       "category" : "longterm",
       "checksum" : "1f207ebe93980829ecc0a18b694816f22b715e9893767731651969a168342b9e",
       "date" : "2025-12-06",
@@ -91,18 +76,18 @@
    },
    {
       "category" : "stable",
-      "checksum" : "558c6bbab749492b34f99827fe807b0039a744693c21d3a7e03b3a48edaab96a",
-      "date" : "2025-12-18",
+      "checksum" : "7a8879167b89c4bae077d6f39c4f2130769f05dbdad2aad914adab9afb7d7f9a",
+      "date" : "2026-01-02",
       "meta" : {
-         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.2",
-         "link" : "https://git.kernel.org/stable/h/v6.18.2",
-         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.2.tar.sign"
+         "changelog" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.3",
+         "link" : "https://git.kernel.org/stable/h/v6.18.3",
+         "pgp" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.3.tar.sign"
       },
       "package" : {
          "name" : "stable"
       },
-      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.2.tar.xz",
-      "version" : "6.18.2"
+      "url" : "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.3.tar.xz",
+      "version" : "6.18.3"
    },
    {
       "category" : "mainline",
