@@ -91,18 +91,18 @@
    },
    {
       "category" : "mainline",
-      "checksum" : "4d26f2c2e326444613ffd3dab3ff3c42083e68e5146d34c272086327d264ee1a",
-      "date" : "2025-12-28",
+      "checksum" : "d53acd935f7e1d4ff15ef61aa647b021932a1555c665229ed90d4087a0e34b14",
+      "date" : "2026-01-04",
       "meta" : {
          "changelog" : "",
-         "link" : "https://git.kernel.org/torvalds/h/v6.19-rc3",
+         "link" : "https://git.kernel.org/torvalds/h/v6.19-rc4",
          "pgp" : ""
       },
       "package" : {
          "name" : "mainline"
       },
-      "url" : "https://git.kernel.org/torvalds/t/linux-6.19-rc3.tar.gz",
-      "version" : "6.19.0-rc3"
+      "url" : "https://git.kernel.org/torvalds/t/linux-6.19-rc4.tar.gz",
+      "version" : "6.19.0-rc4"
    },
    {
       "category" : "longterm",
