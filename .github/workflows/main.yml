@@ -1,86 +1,86 @@
 {
-   "jobs" : {
-      "build" : {
-         "continue-on-error" : true,
-         "runs-on" : "ubuntu-latest",
-         "steps" : [
-            {
-               "uses" : "actions/checkout@v2"
-            },
-            {
-               "name" : "Install Nix",
-               "uses" : "cachix/install-nix-action@v31",
-               "with" : {
-                  "extra_nix_config" : "experimental-features = nix-command flakes\n",
-                  "nix_path" : "nixpkgs=channel:${{matrix.channel}}"
-               }
-            },
-            {
-               "uses" : "cachix/cachix-action@v15",
-               "with" : {
-                  "authToken" : "${{ secrets.CACHIX_AUTH_TOKEN }}",
-                  "name" : "kernel-overlay"
-               }
-            },
-            {
-               "name" : "Enable cache",
-               "run" : "cachix use kernel-overlay"
-            },
-            {
-               "name" : "Build kernel",
-               "run" : "nix build '.#linux_${{matrix.version}}'"
-            },
-            {
-               "name" : "Push",
-               "run" : "nix path-info --all | cachix push kernel-overlay"
-            },
-            {
-               "name" : "Build VM",
-               "run" : "nix build '.#nixosConfigurations.x86_64-linux.vm_${{matrix.version}}.config.system.build.vm'"
-            },
-            {
-               "name" : "Push",
-               "run" : "nix path-info --all | cachix push kernel-overlay"
-            }
-         ],
-         "strategy" : {
-            "fail-fast" : false,
-            "matrix" : {
-               "channel" : [
-                  "nixos-unstable",
-                  "nixos-25.11"
-               ],
-               "version" : [
-                  "stable",
-                  "mainline",
-                  "6_6",
-                  "6_18",
-                  "6_12",
-                  "6_1",
-                  "5_15",
-                  "5_10"
-               ]
-            }
-         },
-         "timeout-minutes" : 180
-      }
-   },
-   "name" : "packages",
-   "on" : {
-      "pull_request" : {
-         "branches" : [
-            "master"
-         ]
+  "jobs": {
+    "build": {
+      "continue-on-error": true,
+      "runs-on": "ubuntu-latest",
+      "steps": [
+        {
+          "uses": "actions/checkout@v2"
+        },
+        {
+          "name": "Install Nix",
+          "uses": "cachix/install-nix-action@v31",
+          "with": {
+            "extra_nix_config": "experimental-features = nix-command flakes\n",
+            "nix_path": "nixpkgs=channel:${{matrix.channel}}"
+          }
+        },
+        {
+          "uses": "cachix/cachix-action@v15",
+          "with": {
+            "authToken": "${{ secrets.CACHIX_AUTH_TOKEN }}",
+            "name": "kernel-overlay"
+          }
+        },
+        {
+          "name": "Enable cache",
+          "run": "cachix use kernel-overlay"
+        },
+        {
+          "name": "Build kernel",
+          "run": "nix build '.#linux_${{matrix.version}}'"
+        },
+        {
+          "name": "Push",
+          "run": "nix path-info --all | cachix push kernel-overlay"
+        },
+        {
+          "name": "Build VM",
+          "run": "nix build '.#nixosConfigurations.x86_64-linux.vm_${{matrix.version}}.config.system.build.vm'"
+        },
+        {
+          "name": "Push",
+          "run": "nix path-info --all | cachix push kernel-overlay"
+        }
+      ],
+      "strategy": {
+        "fail-fast": false,
+        "matrix": {
+          "channel": [
+            "nixos-unstable",
+            "nixos-25.11"
+          ],
+          "version": [
+            "stable",
+            "mainline",
+            "6_6",
+            "6_18",
+            "6_12",
+            "6_1",
+            "5_15",
+            "5_10"
+          ]
+        }
       },
-      "push" : {
-         "branches" : [
-            "master"
-         ]
-      },
-      "schedule" : [
-         {
-            "cron" : "30 0 * * *"
-         }
+      "timeout-minutes": 180
+    }
+  },
+  "name": "packages",
+  "on": {
+    "pull_request": {
+      "branches": [
+        "master"
       ]
-   }
+    },
+    "push": {
+      "branches": [
+        "master"
+      ]
+    },
+    "schedule": [
+      {
+        "cron": "30 0 * * *"
+      }
+    ]
+  }
 }
