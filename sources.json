@@ -106,17 +106,17 @@
   },
   {
     "category": "mainline",
-    "checksum": "0652a525d118bf00cdea25897ee3af77581c9ba94de8c709fef98cc0e9b31dd7",
-    "date": "2026-03-01",
-    "url": "https://git.kernel.org/torvalds/t/linux-7.0-rc2.tar.gz",
+    "checksum": "da4699f4243576c86aee08900c2bb8b6dd3ec0821786c2915f471ebfc4067459",
+    "date": "2026-03-08",
+    "url": "https://git.kernel.org/torvalds/t/linux-7.0-rc3.tar.gz",
     "package": {
       "name": "mainline"
     },
     "meta": {
-      "link": "https://git.kernel.org/torvalds/h/v7.0-rc2",
+      "link": "https://git.kernel.org/torvalds/h/v7.0-rc3",
       "pgp": "",
       "changelog": ""
     },
-    "version": "7.0.0-rc2"
+    "version": "7.0.0-rc3"
   }
 ]
