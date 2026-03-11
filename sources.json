@@ -106,7 +106,7 @@
   },
   {
     "category": "mainline",
-    "checksum": "da4699f4243576c86aee08900c2bb8b6dd3ec0821786c2915f471ebfc4067459",
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "date": "2026-03-08",
     "url": "https://git.kernel.org/torvalds/t/linux-7.0-rc3.tar.gz",
     "package": {
