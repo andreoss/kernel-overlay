@@ -76,18 +76,18 @@
   },
   {
     "category": "stable",
-    "checksum": "02c1878b83f5f9eb0f08dc3852933ed6db2ff31a5f3e908674e1795cdf60952e",
-    "date": "2026-03-12",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.7.tar.xz",
+    "checksum": "aada4722db8bcfa0b9732851856d405082b6a4fa2e3ab067be8db17cdd115b38",
+    "date": "2026-03-13",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.8.tar.xz",
     "package": {
       "name": "stable"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.19.7",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.7.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.19.7"
+      "link": "https://git.kernel.org/stable/h/v6.19.8",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.8.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.19.8"
     },
-    "version": "6.19.7"
+    "version": "6.19.8"
   },
   {
     "category": "longterm",
