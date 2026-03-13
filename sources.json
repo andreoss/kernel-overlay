@@ -46,33 +46,33 @@
   },
   {
     "category": "longterm",
-    "checksum": "bbb43e834c46e6bd49a5c28f22e679a937443404e1f653204d4b24929f3ad896",
-    "date": "2026-03-05",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.76.tar.xz",
+    "checksum": "358836ebe5caef41e7ae9492e7fbcdf5be6e53ee43c99752aebda81e1b2cff67",
+    "date": "2026-03-13",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.77.tar.xz",
     "package": {
       "name": "6_12"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.12.76",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.76.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.76"
+      "link": "https://git.kernel.org/stable/h/v6.12.77",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.77.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.77"
     },
-    "version": "6.12.76"
+    "version": "6.12.77"
   },
   {
     "category": "longterm",
-    "checksum": "2bff97ab0590bc5ccdd5b82286d5ef324828672126ebddc88d062e3ac65af80d",
-    "date": "2026-03-12",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.17.tar.xz",
+    "checksum": "f4855f382c1b735c84072bdef36db5bcd5dc7b0c37e42f5104317149a0a486ef",
+    "date": "2026-03-13",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.18.tar.xz",
     "package": {
       "name": "6_18"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.18.17",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.17.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.17"
+      "link": "https://git.kernel.org/stable/h/v6.18.18",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.18.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.18"
     },
-    "version": "6.18.17"
+    "version": "6.18.18"
   },
   {
     "category": "stable",
