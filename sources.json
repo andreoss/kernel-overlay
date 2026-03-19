@@ -61,33 +61,33 @@
   },
   {
     "category": "longterm",
-    "checksum": "f4855f382c1b735c84072bdef36db5bcd5dc7b0c37e42f5104317149a0a486ef",
-    "date": "2026-03-13",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.18.tar.xz",
+    "checksum": "eaaf78271cd07c68ad9c4c9a70c72718b33abbd716239d82bac96b1751eb090c",
+    "date": "2026-03-19",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.19.tar.xz",
     "package": {
       "name": "6_18"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.18.18",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.18.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.18"
+      "link": "https://git.kernel.org/stable/h/v6.18.19",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.19.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.19"
     },
-    "version": "6.18.18"
+    "version": "6.18.19"
   },
   {
     "category": "stable",
-    "checksum": "aada4722db8bcfa0b9732851856d405082b6a4fa2e3ab067be8db17cdd115b38",
-    "date": "2026-03-13",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.8.tar.xz",
+    "checksum": "c16068a3af12e3943dee3b1eef57ca70229c069128bfa1184fb3f48b219d55bf",
+    "date": "2026-03-19",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.9.tar.xz",
     "package": {
       "name": "stable"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.19.8",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.8.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.19.8"
+      "link": "https://git.kernel.org/stable/h/v6.19.9",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.9.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.19.9"
     },
-    "version": "6.19.8"
+    "version": "6.19.9"
   },
   {
     "category": "longterm",
