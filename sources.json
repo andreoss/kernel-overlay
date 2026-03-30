@@ -106,7 +106,7 @@
   },
   {
     "category": "mainline",
-    "checksum": "5fb27c10d8a5fd5618759a2a4cb1a7538b76736efcaad8cfa094addadb2f6be1",
+    "checksum": "32b49483739dd37a53856ca23729e62bc9fb4265db357923727d1c822b68c4b8",
     "date": "2026-03-29",
     "url": "https://git.kernel.org/torvalds/t/linux-7.0-rc6.tar.gz",
     "package": {
