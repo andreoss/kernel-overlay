@@ -91,18 +91,18 @@
   },
   {
     "category": "longterm",
-    "checksum": "c5b62bbb104f5fddf6be6f50ebd170146c1995d2cc84e591a914decb4b6b2eb4",
-    "date": "2026-04-02",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.132.tar.xz",
+    "checksum": "e6da5b8a3097a46df0e86cd72f3c4f4694652e79acf06673736af3255398f115",
+    "date": "2026-04-06",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.133.tar.xz",
     "package": {
       "name": "6_6"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.6.132",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.132.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.132"
+      "link": "https://git.kernel.org/stable/h/v6.6.133",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.133.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.133"
     },
-    "version": "6.6.132"
+    "version": "6.6.133"
   },
   {
     "category": "mainline",
