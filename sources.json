@@ -61,33 +61,33 @@
   },
   {
     "category": "longterm",
-    "checksum": "2a2d8e76bfcd135ab861bb9795211574eeff6d4ede9cc920f7c137587e835134",
-    "date": "2026-04-18",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.23.tar.xz",
+    "checksum": "c207c557ce58103b4dda30e26da5203f3d8467c6dadc53d709f6d83ae1d1255f",
+    "date": "2026-04-22",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.24.tar.xz",
     "package": {
       "name": "6_18"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.18.23",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.23.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.23"
+      "link": "https://git.kernel.org/stable/h/v6.18.24",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.24.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.24"
     },
-    "version": "6.18.23"
+    "version": "6.18.24"
   },
   {
-    "category": "stable",
-    "checksum": "0559b1fea740e71714b4368023902b7d098c45ac1faa3176eab392c867645648",
-    "date": "2026-04-18",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.13.tar.xz",
+    "category": "eol",
+    "checksum": "cde8bf6739be4a0777fedbbba5330b8188c55680c45a922a4dfa289cbec6f185",
+    "date": "2026-04-22",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.14.tar.xz",
     "package": {
-      "name": "stable"
+      "name": "6_19"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.19.13",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.13.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.19.13"
+      "link": "https://git.kernel.org/stable/h/v6.19.14",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.14.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.19.14"
     },
-    "version": "6.19.13"
+    "version": "6.19.14.0"
   },
   {
     "category": "longterm",
@@ -118,5 +118,20 @@
       "changelog": ""
     },
     "version": "7.0.0"
+  },
+  {
+    "category": "stable",
+    "checksum": "b2c935a36d24980e11e59bed3ca558ea6d67619ec0065faa335cdc0b64d887bf",
+    "date": "2026-04-22",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.1.tar.xz",
+    "package": {
+      "name": "stable"
+    },
+    "meta": {
+      "link": "https://git.kernel.org/stable/h/v7.0.1",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.1.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.0.1"
+    },
+    "version": "7.0.1"
   }
 ]
