@@ -46,33 +46,33 @@
   },
   {
     "category": "longterm",
-    "checksum": "39e3172cd1dfa526d353b603e6388db2ab122bbf6a08e05930559a832adcdf31",
-    "date": "2026-04-22",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.83.tar.xz",
+    "checksum": "d56e463a7b1f5355794ae83a102453ad930a51f9cb46b295fcf24a717bff52dd",
+    "date": "2026-04-27",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.84.tar.xz",
     "package": {
       "name": "6_12"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.12.83",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.83.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.83"
+      "link": "https://git.kernel.org/stable/h/v6.12.84",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.84.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.84"
     },
-    "version": "6.12.83"
+    "version": "6.12.84"
   },
   {
     "category": "longterm",
-    "checksum": "c207c557ce58103b4dda30e26da5203f3d8467c6dadc53d709f6d83ae1d1255f",
-    "date": "2026-04-22",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.24.tar.xz",
+    "checksum": "29680a07d4430b269af6ce68079b0e81dbd60f03e6f351e0661991fe39bd1898",
+    "date": "2026-04-27",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.25.tar.xz",
     "package": {
       "name": "6_18"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.18.24",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.24.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.24"
+      "link": "https://git.kernel.org/stable/h/v6.18.25",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.25.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.25"
     },
-    "version": "6.18.24"
+    "version": "6.18.25"
   },
   {
     "category": "eol",
