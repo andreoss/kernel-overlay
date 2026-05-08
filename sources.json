@@ -31,18 +31,18 @@
   },
   {
     "category": "longterm",
-    "checksum": "60beafaf18d1803886379009cb55d90c3b993d546159eac0c05fdc223818518c",
+    "checksum": "f1672e610dc9e05e33de1803857e26c5abe1d1ab0a2ea74b0d8269267f73b499",
     "date": "2026-05-08",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.171.tar.xz",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.172.tar.xz",
     "package": {
       "name": "6_1"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.1.171",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.171.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.171"
+      "link": "https://git.kernel.org/stable/h/v6.1.172",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.172.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.172"
     },
-    "version": "6.1.171"
+    "version": "6.1.172"
   },
   {
     "category": "longterm",
