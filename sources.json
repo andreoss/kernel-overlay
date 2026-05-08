@@ -16,18 +16,18 @@
   },
   {
     "category": "longterm",
-    "checksum": "6e089e9716e31133c5d032c8f5d920d9b78554ce8d18f4819b74bc7865d55e80",
+    "checksum": "5fc6ce4f4cfb17977bc6e14c52a0e10846544f1ffc133aac26d6de7e14a5e61f",
     "date": "2026-05-08",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.205.tar.xz",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.206.tar.xz",
     "package": {
       "name": "5_15"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v5.15.205",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.205.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.205"
+      "link": "https://git.kernel.org/stable/h/v5.15.206",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.206.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.206"
     },
-    "version": "5.15.205"
+    "version": "5.15.206"
   },
   {
     "category": "longterm",
