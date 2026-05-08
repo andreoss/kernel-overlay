@@ -46,33 +46,33 @@
   },
   {
     "category": "longterm",
-    "checksum": "edef22b327c7cbf39cdbf8d717fffa344f1ca299e513990e21705b3bf26dbb5d",
-    "date": "2026-05-07",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.86.tar.xz",
+    "checksum": "cc12a7644b4cef9e06627b29de8753e22b3d076703a9b52be84263e05c8b9830",
+    "date": "2026-05-08",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.87.tar.xz",
     "package": {
       "name": "6_12"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.12.86",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.86.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.86"
+      "link": "https://git.kernel.org/stable/h/v6.12.87",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.87.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.87"
     },
-    "version": "6.12.86"
+    "version": "6.12.87"
   },
   {
     "category": "longterm",
-    "checksum": "25017b93946f0ba2cbf71910b59640a29d9167a5b65ccd41b12cd991875ce2ea",
-    "date": "2026-05-07",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.27.tar.xz",
+    "checksum": "f360789483586cf8a20b4ab2bffe76ead6b62c0db1eeb0d917294456c4d77b74",
+    "date": "2026-05-08",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.28.tar.xz",
     "package": {
       "name": "6_18"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.18.27",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.27.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.27"
+      "link": "https://git.kernel.org/stable/h/v6.18.28",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.28.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.28"
     },
-    "version": "6.18.27"
+    "version": "6.18.28"
   },
   {
     "category": "eol",
@@ -91,33 +91,33 @@
   },
   {
     "category": "longterm",
-    "checksum": "92f1e90d8be49f9d7f989e563c97a4f39cd7731025d7b81152814c68b5bd56c4",
-    "date": "2026-04-30",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.137.tar.xz",
+    "checksum": "add06b5fdb655c7e575fbfa29e7bab23a3c36c5388e77fa759ed4b0d1a55a80f",
+    "date": "2026-05-08",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.138.tar.xz",
     "package": {
       "name": "6_6"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.6.137",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.137.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.137"
+      "link": "https://git.kernel.org/stable/h/v6.6.138",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.138.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.138"
     },
-    "version": "6.6.137"
+    "version": "6.6.138"
   },
   {
     "category": "stable",
-    "checksum": "d92081d84c925adb21a6a709042499e5dcad5dd93a1d9c683f05304fda9257a7",
-    "date": "2026-05-07",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.4.tar.xz",
+    "checksum": "965fb0a1c1675399fc60c6063b227c0523041b5f9a662b66462f1212c438ac3c",
+    "date": "2026-05-08",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.5.tar.xz",
     "package": {
       "name": "stable"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v7.0.4",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.4.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.0.4"
+      "link": "https://git.kernel.org/stable/h/v7.0.5",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.5.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.0.5"
     },
-    "version": "7.0.4"
+    "version": "7.0.5"
   },
   {
     "category": "mainline",
