@@ -121,17 +121,17 @@
   },
   {
     "category": "mainline",
-    "checksum": "d919b476b1051680de332a48f3d51b48dd700ceafaf62be3deb2ab3b1a6f1772",
-    "date": "2026-05-10",
-    "url": "https://git.kernel.org/torvalds/t/linux-7.1-rc3.tar.gz",
+    "checksum": "2f7ad6f33d4582641923c476dd0d87884af4e6bc36c3513e5ad243e12facbb82",
+    "date": "2026-05-17",
+    "url": "https://git.kernel.org/torvalds/t/linux-7.1-rc4.tar.gz",
     "package": {
       "name": "mainline"
     },
     "meta": {
-      "link": "https://git.kernel.org/torvalds/h/v7.1-rc3",
+      "link": "https://git.kernel.org/torvalds/h/v7.1-rc4",
       "pgp": "",
       "changelog": ""
     },
-    "version": "7.1.0-rc3"
+    "version": "7.1.0-rc4"
   }
 ]
