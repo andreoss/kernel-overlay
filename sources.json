@@ -75,21 +75,6 @@
     "version": "6.18.32"
   },
   {
-    "category": "eol",
-    "checksum": "cde8bf6739be4a0777fedbbba5330b8188c55680c45a922a4dfa289cbec6f185",
-    "date": "2026-04-22",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.14.tar.xz",
-    "package": {
-      "name": "6_19"
-    },
-    "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.19.14",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.19.14.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.19.14"
-    },
-    "version": "6.19.14.0"
-  },
-  {
     "category": "longterm",
     "checksum": "d67c9674a2d4307f3747183935a5d434391df0fc5f5bf0e00691e059f664b7db",
     "date": "2026-05-17",
