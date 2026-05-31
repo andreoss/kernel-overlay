@@ -106,17 +106,17 @@
   },
   {
     "category": "mainline",
-    "checksum": "c7654654334009442a9d5bd47ffe0cf8c7a856b7feeb6359eaf5588830f25df6",
-    "date": "2026-05-24",
-    "url": "https://git.kernel.org/torvalds/t/linux-7.1-rc5.tar.gz",
+    "checksum": "93f588579917f3666fa6dd5a5bb810891cbf14722afc6a0c69108e137e01241f",
+    "date": "2026-05-31",
+    "url": "https://git.kernel.org/torvalds/t/linux-7.1-rc6.tar.gz",
     "package": {
       "name": "mainline"
     },
     "meta": {
-      "link": "https://git.kernel.org/torvalds/h/v7.1-rc5",
+      "link": "https://git.kernel.org/torvalds/h/v7.1-rc6",
       "pgp": "",
       "changelog": ""
     },
-    "version": "7.1.0-rc5"
+    "version": "7.1.0-rc6"
   }
 ]
