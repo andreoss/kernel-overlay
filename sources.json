@@ -91,18 +91,18 @@
   },
   {
     "category": "stable",
-    "checksum": "57edc9a41efc1ca6b797afa8f4a587a30da2af6bca7356eb56e1e1a4ada265da",
-    "date": "2026-06-09",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.12.tar.xz",
+    "checksum": "3c81edd0f716aca3dd48dff691681827580cc53d35a8eec3be47d346d1f89913",
+    "date": "2026-06-19",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.13.tar.xz",
     "package": {
       "name": "stable"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v7.0.12",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.12.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.0.12"
+      "link": "https://git.kernel.org/stable/h/v7.0.13",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.13.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.0.13"
     },
-    "version": "7.0.12"
+    "version": "7.0.13"
   },
   {
     "category": "mainline",
@@ -118,5 +118,20 @@
       "changelog": ""
     },
     "version": "7.1.0"
+  },
+  {
+    "category": "stable",
+    "checksum": "5215fa3541dc7e7f5bcd51bf7e57f169cec6fce508ca54e3dc85fdee14371d7d",
+    "date": "2026-06-19",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.1.tar.xz",
+    "package": {
+      "name": "stable"
+    },
+    "meta": {
+      "link": "https://git.kernel.org/stable/h/v7.1.1",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.1.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.1.1"
+    },
+    "version": "7.1.1"
   }
 ]
