@@ -52,8 +52,8 @@
           ],
           "version": [
             "stable",
-            "stable",
             "mainline",
+            "7_0",
             "6_6",
             "6_18",
             "6_12",

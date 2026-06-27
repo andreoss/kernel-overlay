@@ -90,19 +90,19 @@
     "version": "6.6.143"
   },
   {
-    "category": "stable",
+    "category": "eol",
     "checksum": "3c81edd0f716aca3dd48dff691681827580cc53d35a8eec3be47d346d1f89913",
     "date": "2026-06-19",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.13.tar.xz",
     "package": {
-      "name": "stable"
+      "name": "7_0"
     },
     "meta": {
       "link": "https://git.kernel.org/stable/h/v7.0.13",
       "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.13.tar.sign",
       "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.0.13"
     },
-    "version": "7.0.13"
+    "version": "7.0.13.0"
   },
   {
     "category": "mainline",
