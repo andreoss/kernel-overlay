@@ -105,21 +105,6 @@
     "version": "7.0.14.0"
   },
   {
-    "category": "mainline",
-    "checksum": "691f44797fbe790dc8a321604c927087526ad27b6d649925d60f8eed0a2564a0",
-    "date": "2026-06-14",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.tar.xz",
-    "package": {
-      "name": "mainline"
-    },
-    "meta": {
-      "link": "https://git.kernel.org/torvalds/h/v7.1",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.tar.sign",
-      "changelog": ""
-    },
-    "version": "7.1.0"
-  },
-  {
     "category": "stable",
     "checksum": "37198c93727be247c9fb5309bb86cd5e496c61e5322cd8c4eca9476bb0b5883f",
     "date": "2026-06-27",
@@ -133,5 +118,20 @@
       "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.1.2"
     },
     "version": "7.1.2"
+  },
+  {
+    "category": "mainline",
+    "checksum": "b460e74cfa0a428416881063821ef6aae8a6a4c69891b9ab10fcf4edf770ce0d",
+    "date": "2026-06-28",
+    "url": "https://git.kernel.org/torvalds/t/linux-7.2-rc1.tar.gz",
+    "package": {
+      "name": "mainline"
+    },
+    "meta": {
+      "link": "https://git.kernel.org/torvalds/h/v7.2-rc1",
+      "pgp": "",
+      "changelog": ""
+    },
+    "version": "7.2.0-rc1"
   }
 ]
