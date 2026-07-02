@@ -1,7 +1,7 @@
 [
   {
     "category": "longterm",
-    "checksum": "aa5e8e580a555e55176658b78fb6759f9c84654462b735119d4e819b5c46b609",
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "date": "2026-06-19",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.259.tar.xz",
     "package": {
@@ -31,7 +31,7 @@
   },
   {
     "category": "longterm",
-    "checksum": "aa19772dba40e9737356c00d0671cdedbe26cc895eff062868f0a1f688ae44f6",
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "date": "2026-06-19",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.176.tar.xz",
     "package": {
@@ -46,7 +46,7 @@
   },
   {
     "category": "longterm",
-    "checksum": "e998a232b9418db3301cb58468e291a4f41d6ab8306029b30d991f56251dc8d2",
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "date": "2026-06-19",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.94.tar.xz",
     "package": {
@@ -61,7 +61,7 @@
   },
   {
     "category": "longterm",
-    "checksum": "a83cd200e6646db52866b8309e9137b9e9048b613cbda10ced2b811aae125255",
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "date": "2026-06-27",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.37.tar.xz",
     "package": {
@@ -76,7 +76,7 @@
   },
   {
     "category": "longterm",
-    "checksum": "dace1f8dc9c0dbf5df14f47e3229cd62c298e83049681731ef229f2ba7592932",
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "date": "2026-06-19",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.143.tar.xz",
     "package": {
@@ -91,7 +91,7 @@
   },
   {
     "category": "eol",
-    "checksum": "de9999b784d2293f00d39c62d8f92a08ab8a54bc4e80ffd250a0c09cb07a0f98",
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "date": "2026-06-27",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.14.tar.xz",
     "package": {
@@ -106,7 +106,7 @@
   },
   {
     "category": "stable",
-    "checksum": "37198c93727be247c9fb5309bb86cd5e496c61e5322cd8c4eca9476bb0b5883f",
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "date": "2026-06-27",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.2.tar.xz",
     "package": {
