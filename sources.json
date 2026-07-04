@@ -90,6 +90,21 @@
     "version": "6.19.14"
   },
   {
+    "category": "longterm",
+    "checksum": "8ee33b6f438a340579c9a763686a38a4268e185726381163b0a1025c76c8083d",
+    "date": "2026-02-16",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.125.tar.xz",
+    "package": {
+      "name": "6_6"
+    },
+    "meta": {
+      "link": "https://git.kernel.org/stable/h/v6.6.125",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.125.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.125"
+    },
+    "version": "6.6.125"
+  },
+  {
     "category": "mainline",
     "checksum": "b460e74cfa0a428416881063821ef6aae8a6a4c69891b9ab10fcf4edf770ce0d",
     "date": "2026-06-28",
