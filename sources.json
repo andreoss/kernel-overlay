@@ -16,7 +16,7 @@
   },
   {
     "category": "longterm",
-    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checksum": "910ba46ae15e7495a9624f89d7f11b24ccc8bc1ee4b3abdd502e75b055290a01",
     "date": "2026-06-19",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.210.tar.xz",
     "package": {
@@ -31,7 +31,7 @@
   },
   {
     "category": "longterm",
-    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checksum": "aa19772dba40e9737356c00d0671cdedbe26cc895eff062868f0a1f688ae44f6",
     "date": "2026-06-19",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.176.tar.xz",
     "package": {
