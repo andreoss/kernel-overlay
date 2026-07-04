@@ -61,33 +61,33 @@
   },
   {
     "category": "mainline",
-    "checksum": "a294b683e7b161bb0517bb32ec7ed1d2ea7603dfbabad135170ed12d00c47670",
-    "date": "2025-03-24",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.tar.xz",
+    "checksum": "1a4be2fe6b5246aa4ac8987a8a4af34c42a8dd7d08b46ab48516bcc1befbcd83",
+    "date": "2025-07-27",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.16.tar.xz",
     "package": {
       "name": "mainline"
     },
     "meta": {
-      "link": "https://git.kernel.org/torvalds/h/v6.14",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.14.tar.sign",
+      "link": "https://git.kernel.org/torvalds/h/v6.16",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.16.tar.sign",
       "changelog": ""
     },
-    "version": "6.14.0"
+    "version": "6.16.0"
   },
   {
     "category": "stable",
-    "checksum": "89ab469fc35bd9cbc6c5bf4e5cb802581806d5cbc14fb47e5c9edcc477e65d93",
-    "date": "2025-08-20",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.15.11.tar.xz",
+    "checksum": "116802dc3ad1646163cc6ffe9bddba24a8069b569135ec0523cd799064f2edb9",
+    "date": "2025-12-18",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.13.tar.xz",
     "package": {
       "name": "stable"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.15.11",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.15.11.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.15.11"
+      "link": "https://git.kernel.org/stable/h/v6.17.13",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.17.13.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.17.13"
     },
-    "version": "6.15.11"
+    "version": "6.17.13"
   },
   {
     "category": "mainline",
