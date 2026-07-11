@@ -121,7 +121,7 @@
   },
   {
     "category": "mainline",
-    "checksum": "1ec7d94dd60dc6325ccdb7997f3173eab49e14d262a2486b98028aa1c8926ce6",
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "date": "2026-07-06",
     "url": "https://git.kernel.org/torvalds/t/linux-7.2-rc2.tar.gz",
     "package": {
