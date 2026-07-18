@@ -121,7 +121,7 @@
   },
   {
     "category": "mainline",
-    "checksum": "3f23996e52dbc7a8d8a8729c606775a7bd8e1f5194672086b6f381121742e0bd",
+    "checksum": "b5447b610f832d98eed28946b1da3975d71199edeaddc245b3e556b3b0dd0bf6",
     "date": "2026-07-12",
     "url": "https://git.kernel.org/torvalds/t/linux-7.2-rc3.tar.gz",
     "package": {
