@@ -121,17 +121,17 @@
   },
   {
     "category": "mainline",
-    "checksum": "3f23996e52dbc7a8d8a8729c606775a7bd8e1f5194672086b6f381121742e0bd",
-    "date": "2026-07-12",
-    "url": "https://git.kernel.org/torvalds/t/linux-7.2-rc3.tar.gz",
+    "checksum": "0b97442738ce5485694f7d9734cac94bee01839fe0d5635cbf18df30144ebcfc",
+    "date": "2026-07-19",
+    "url": "https://git.kernel.org/torvalds/t/linux-7.2-rc4.tar.gz",
     "package": {
       "name": "mainline"
     },
     "meta": {
-      "link": "https://git.kernel.org/torvalds/h/v7.2-rc3",
+      "link": "https://git.kernel.org/torvalds/h/v7.2-rc4",
       "pgp": "",
       "changelog": ""
     },
-    "version": "7.2.0-rc3"
+    "version": "7.2.0-rc4"
   }
 ]
