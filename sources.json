@@ -121,7 +121,7 @@
   },
   {
     "category": "mainline",
-    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checksum": "0b97442738ce5485694f7d9734cac94bee01839fe0d5635cbf18df30144ebcfc",
     "date": "2026-07-19",
     "url": "https://git.kernel.org/torvalds/t/linux-7.2-rc4.tar.gz",
     "package": {
