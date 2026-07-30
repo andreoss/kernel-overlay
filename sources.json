@@ -1,33 +1,33 @@
 [
   {
     "category": "longterm",
-    "checksum": "a19ca1100640a5fd3b452eb15fe9de32f8deb4ab1866dd7db52183b1a2fad7c4",
-    "date": "2026-07-24",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.261.tar.xz",
+    "checksum": "fae7da8a9b97e5386f0a3dc3c5c8a88be17fcf2d0792a58a5a0c5b4f5775b483",
+    "date": "2026-07-30",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.262.tar.xz",
     "package": {
       "name": "5_10"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v5.10.261",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.261.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.10.261"
+      "link": "https://git.kernel.org/stable/h/v5.10.262",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.262.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.10.262"
     },
-    "version": "5.10.261"
+    "version": "5.10.262"
   },
   {
     "category": "longterm",
-    "checksum": "c396aeebc90c7aecb7f7abdf504c19b372c9926eb0cf0e91f9f09d7d870b65fe",
-    "date": "2026-07-24",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.212.tar.xz",
+    "checksum": "c4721b4b8535f3e418ee579c70645fbfd5ddfba4943c31b919e8c9522371e1d8",
+    "date": "2026-07-30",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.213.tar.xz",
     "package": {
       "name": "5_15"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v5.15.212",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.212.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.212"
+      "link": "https://git.kernel.org/stable/h/v5.15.213",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.213.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.213"
     },
-    "version": "5.15.212"
+    "version": "5.15.213"
   },
   {
     "category": "longterm",
