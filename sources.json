@@ -106,7 +106,7 @@
   },
   {
     "category": "mainline",
-    "checksum": "8be5bf245c5bc89927f15a9f575c04869c25a8d511d8b810ecd8a67e5b0dd51e",
+    "checksum": "9954ca016de7c963b7b931794812846315cda1f983d868370ab1e1f7d86b0d3e",
     "date": "2026-07-26",
     "url": "https://git.kernel.org/torvalds/t/linux-7.2-rc5.tar.gz",
     "package": {
