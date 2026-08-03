@@ -46,67 +46,67 @@
   },
   {
     "category": "longterm",
-    "checksum": "67f973533406492e86774bacbcefae50d50d5c34cbf703c47ec526a5efdcee90",
-    "date": "2026-07-30",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.100.tar.xz",
+    "checksum": "0d21cd11933f49f7151b7c9dbb8cc3fddc8c8abe506434b850feecf41fc28a76",
+    "date": "2026-08-03",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.101.tar.xz",
     "package": {
       "name": "6_12"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.12.100",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.100.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.100"
+      "link": "https://git.kernel.org/stable/h/v6.12.101",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.101.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.101"
     },
-    "version": "6.12.100"
+    "version": "6.12.101"
   },
   {
     "category": "longterm",
-    "checksum": "17fc72f0f8d4a8a8633a5d20085f5d9c5a5ec51ee896a0b7ae1ec25da31273ea",
-    "date": "2026-07-30",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.41.tar.xz",
+    "checksum": "35a8ef5e8fb44467e56a42b40c23c4c10a61d1e95ff8d738f285230e8bed63e7",
+    "date": "2026-08-03",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.42.tar.xz",
     "package": {
       "name": "6_18"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.18.41",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.41.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.41"
+      "link": "https://git.kernel.org/stable/h/v6.18.42",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.42.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.42"
     },
-    "version": "6.18.41"
+    "version": "6.18.42"
   },
   {
     "category": "longterm",
-    "checksum": "e76329b7ee046883d55a1868253cffe67c526a6da6140ebecd3cd6ac44db4abb",
-    "date": "2026-07-30",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.147.tar.xz",
+    "checksum": "b674994b5760eb1c493711cfdc3aefb97583dfe04bb7977b4c8e7aae0710f75e",
+    "date": "2026-08-03",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.148.tar.xz",
     "package": {
       "name": "6_6"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.6.147",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.147.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.147"
+      "link": "https://git.kernel.org/stable/h/v6.6.148",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.148.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.148"
     },
-    "version": "6.6.147"
+    "version": "6.6.148"
   },
   {
     "category": "stable",
-    "checksum": "22a0196b3cbcdf34dc27b77561f4d040585fd3447edc9ab3531a1ac79e3041e7",
-    "date": "2026-07-24",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.5.tar.xz",
+    "checksum": "995dd7188d924662b94b48fd6fb783587267590e5b8bb33dade2c771e7d855c1",
+    "date": "2026-08-03",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.6.tar.xz",
     "package": {
       "name": "stable"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v7.1.5",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.5.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.1.5"
+      "link": "https://git.kernel.org/stable/h/v7.1.6",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.6.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.1.6"
     },
-    "version": "7.1.5"
+    "version": "7.1.6"
   },
   {
     "category": "mainline",
-    "checksum": "bd3d491e9995e3a91b544e5af18df60e97aff46f270fad4b0cd10bd48ea34f02",
+    "checksum": "b4571e368c634822481197273facc1dba45b6dc3dc11ef0b3905c6f1f44fdf30",
     "date": "2026-08-02",
     "url": "https://git.kernel.org/torvalds/t/linux-7.2-rc6.tar.gz",
     "package": {
