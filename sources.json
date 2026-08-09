@@ -106,17 +106,17 @@
   },
   {
     "category": "mainline",
-    "checksum": "bd3d491e9995e3a91b544e5af18df60e97aff46f270fad4b0cd10bd48ea34f02",
-    "date": "2026-08-02",
-    "url": "https://git.kernel.org/torvalds/t/linux-7.2-rc6.tar.gz",
+    "checksum": "aa217866eea669da8d84212161131a7315bb94dafcd739a9e9e294d65e748c10",
+    "date": "2026-08-09",
+    "url": "https://git.kernel.org/torvalds/t/linux-7.2-rc7.tar.gz",
     "package": {
       "name": "mainline"
     },
     "meta": {
-      "link": "https://git.kernel.org/torvalds/h/v7.2-rc6",
+      "link": "https://git.kernel.org/torvalds/h/v7.2-rc7",
       "pgp": "",
       "changelog": ""
     },
-    "version": "7.2.0-rc6"
+    "version": "7.2.0-rc7"
   }
 ]
