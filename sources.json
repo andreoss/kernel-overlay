@@ -46,18 +46,18 @@
   },
   {
     "category": "longterm",
-    "checksum": "694bb5f49371323ab9c2b7040bd358ed81bffbe80b372d76507045828f655803",
-    "date": "2026-08-07",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.102.tar.xz",
+    "checksum": "f143aaade8877ba5616e788b4482576db28481bcf557ef537f4fcc3938fc3176",
+    "date": "2026-08-09",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.103.tar.xz",
     "package": {
       "name": "6_12"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.12.102",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.102.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.102"
+      "link": "https://git.kernel.org/stable/h/v6.12.103",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.103.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.103"
     },
-    "version": "6.12.102"
+    "version": "6.12.103"
   },
   {
     "category": "longterm",
@@ -76,18 +76,18 @@
   },
   {
     "category": "longterm",
-    "checksum": "6eb823269151936c0af9e050678ed5c70ca515d6b20a09af741852b02d228979",
-    "date": "2026-08-07",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.150.tar.xz",
+    "checksum": "de01e5ae73412b70bceb41a6f97da6d0f29b6536f1f00f8b6a6fd40c729969f7",
+    "date": "2026-08-09",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.151.tar.xz",
     "package": {
       "name": "6_6"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.6.150",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.150.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.150"
+      "link": "https://git.kernel.org/stable/h/v6.6.151",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.151.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.151"
     },
-    "version": "6.6.150"
+    "version": "6.6.151"
   },
   {
     "category": "stable",
