@@ -55,24 +55,24 @@
     "meta": {
       "link": "https://git.kernel.org/stable/h/v6.12.105",
       "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.105.tar.sign",
-      "changelog": ""
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.105"
     },
     "version": "6.12.105"
   },
   {
     "category": "longterm",
-    "checksum": "30fa4a56579ca614ac125a12614f7f6466f87ab1278aef7b951dd74156deab33",
-    "date": "2026-08-19",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.45.tar.xz",
+    "checksum": "f5d44b93808b02cc2969c5404ba081d97523719c9fd2ba2de6db318b4141cca0",
+    "date": "2026-08-23",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.46.tar.xz",
     "package": {
       "name": "6_18"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.18.45",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.45.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.45"
+      "link": "https://git.kernel.org/stable/h/v6.18.46",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.46.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.46"
     },
-    "version": "6.18.45"
+    "version": "6.18.46"
   },
   {
     "category": "longterm",
@@ -91,18 +91,18 @@
   },
   {
     "category": "stable",
-    "checksum": "3271a4ae3897b38352980f2b0975bae61bca81c644d186221c5ae928bcc072b0",
-    "date": "2026-08-19",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.9.tar.xz",
+    "checksum": "67d2f4697a02f3bec98e744b1bdc307e920c24bb4e88b5ee97dc9a34e9aa9999",
+    "date": "2026-08-23",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.10.tar.xz",
     "package": {
       "name": "stable"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v7.1.9",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.9.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.1.9"
+      "link": "https://git.kernel.org/stable/h/v7.1.10",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.10.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.1.10"
     },
-    "version": "7.1.9"
+    "version": "7.1.10"
   },
   {
     "category": "mainline",
