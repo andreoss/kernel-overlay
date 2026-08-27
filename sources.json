@@ -1,7 +1,7 @@
 [
   {
     "category": "longterm",
-    "checksum": "940ea3be9390a46f7070798acbe613e0f047307a0f25d8fd227af8599df23afe",
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "date": "2026-08-23",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.266.tar.xz",
     "package": {
@@ -16,7 +16,7 @@
   },
   {
     "category": "longterm",
-    "checksum": "e320fd344fbde45a5d94e345df93c10eeb8beb7cf2aae7a378a50d99b673a5e5",
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "date": "2026-08-23",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.217.tar.xz",
     "package": {
