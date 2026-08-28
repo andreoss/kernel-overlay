@@ -16,7 +16,7 @@
   },
   {
     "category": "longterm",
-    "checksum": "c3801bd134f3e9eeb77e370983d42126ac1a1d75039e985f928818dd6b8df236",
+    "checksum": "f44c4f0820d6e787290d7143e991b82b43cb48d4b89b69e5b6260144a5e8c420",
     "date": "2026-08-27",
     "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.218.tar.xz",
     "package": {
