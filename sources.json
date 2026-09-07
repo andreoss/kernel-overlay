@@ -46,18 +46,18 @@
   },
   {
     "category": "longterm",
-    "checksum": "e1d1ea200d22d55c9f5d5fae59e69bb3b494515705fc3390cd54231ee4f4baaf",
-    "date": "2026-09-02",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.108.tar.xz",
+    "checksum": "5484e552a334e15019f4aeba89e5b58f04651cf2f4e24e04de9f152f1c38e3fa",
+    "date": "2026-09-07",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.109.tar.xz",
     "package": {
       "name": "6_12"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.12.108",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.108.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.108"
+      "link": "https://git.kernel.org/stable/h/v6.12.109",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.109.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.109"
     },
-    "version": "6.12.108"
+    "version": "6.12.109"
   },
   {
     "category": "longterm",
