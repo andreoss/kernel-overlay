@@ -121,7 +121,7 @@
   },
   {
     "category": "mainline",
-    "checksum": "41f389c14bcc94cde142c78513e6e21dbb8190e6fe0b3729c01c196bc790076b",
+    "checksum": "6b97fb9397172e95ed95b56a78524a184bf186858bea7a271b9ebe81a0e57417",
     "date": "2026-09-06",
     "url": "https://git.kernel.org/torvalds/t/linux-7.3-rc2.tar.gz",
     "package": {
