@@ -18,7 +18,7 @@ nix flake show github:andreoss/kernel-overlay
 |Version|Package|Date|
 |---|---|---|
 |7.1.13.0|7_1|2026-09-02|
-|7.3.0-rc3|mainline|2026-09-13|
+|7.3.0-rc4|mainline|2026-09-20|
 |7.2.6|stable|2026-09-14|
 |6.18.52|6_18|2026-09-14|
 |6.12.110|6_12|2026-09-14|

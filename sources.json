@@ -121,17 +121,17 @@
   },
   {
     "category": "mainline",
-    "checksum": "49b24119d7b92da75bba0daf5da4f7735c8cb948757a282e849092dcc681d8dd",
-    "date": "2026-09-13",
-    "url": "https://git.kernel.org/torvalds/t/linux-7.3-rc3.tar.gz",
+    "checksum": "c27dd1eb568b70e07fa8807e22fdb5cbe17c1338d3c781ca3159f7a6f13cd0dd",
+    "date": "2026-09-20",
+    "url": "https://git.kernel.org/torvalds/t/linux-7.3-rc4.tar.gz",
     "package": {
       "name": "mainline"
     },
     "meta": {
-      "link": "https://git.kernel.org/torvalds/h/v7.3-rc3",
+      "link": "https://git.kernel.org/torvalds/h/v7.3-rc4",
       "pgp": "",
       "changelog": ""
     },
-    "version": "7.3.0-rc3"
+    "version": "7.3.0-rc4"
   }
 ]
