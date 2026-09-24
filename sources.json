@@ -121,7 +121,7 @@
   },
   {
     "category": "mainline",
-    "checksum": "c27dd1eb568b70e07fa8807e22fdb5cbe17c1338d3c781ca3159f7a6f13cd0dd",
+    "checksum": "b91344f041ecbe382a80856ceb09d8eea00f5220907eb3fe9c30e0fc1600efa3",
     "date": "2026-09-20",
     "url": "https://git.kernel.org/torvalds/t/linux-7.3-rc4.tar.gz",
     "package": {
