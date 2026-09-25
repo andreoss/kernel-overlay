@@ -61,18 +61,18 @@
   },
   {
     "category": "longterm",
-    "checksum": "4d6fba95c2244b08a7b4144a4d38b9be4fb31abb5e7682ae40bb5cb11374cfe0",
-    "date": "2026-09-21",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.53.tar.xz",
+    "checksum": "9df30b02dd8102bbd0be52556288ef6889ddbe7f1ddb96fbf847d0becf3eacac",
+    "date": "2026-09-25",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.54.tar.xz",
     "package": {
       "name": "6_18"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.18.53",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.53.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.53"
+      "link": "https://git.kernel.org/stable/h/v6.18.54",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.54.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.54"
     },
-    "version": "6.18.53"
+    "version": "6.18.54"
   },
   {
     "category": "longterm",
@@ -106,18 +106,18 @@
   },
   {
     "category": "stable",
-    "checksum": "4ac34c47db2540ffb2713943f8d891ff1702e0ba6934525a493b7d1cad43145a",
-    "date": "2026-09-21",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.7.tar.xz",
+    "checksum": "12e8d5a973d1ad7c5a5c69882e4022b131ed715db7003fdcd760ddf8c3e51941",
+    "date": "2026-09-25",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.8.tar.xz",
     "package": {
       "name": "stable"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v7.2.7",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.7.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.2.7"
+      "link": "https://git.kernel.org/stable/h/v7.2.8",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.8.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.2.8"
     },
-    "version": "7.2.7"
+    "version": "7.2.8"
   },
   {
     "category": "mainline",
