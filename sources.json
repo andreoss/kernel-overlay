@@ -121,7 +121,7 @@
   },
   {
     "category": "mainline",
-    "checksum": "67a5fd69b8f770cafe36d4e6b7500cce09799588cb61abdbff3d248e43768d36",
+    "checksum": "382d6aa48640351df7da6321e156c39155b4a99b0985d4370f7e608729987453",
     "date": "2026-09-27",
     "url": "https://git.kernel.org/torvalds/t/linux-7.3-rc5.tar.gz",
     "package": {
