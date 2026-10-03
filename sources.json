@@ -90,21 +90,6 @@
     "version": "6.6.157"
   },
   {
-    "category": "eol",
-    "checksum": "614d95fafdcb5cce2b6620e7edc6afbb606bffd4655405586815d84687841ad7",
-    "date": "2026-09-02",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.13.tar.xz",
-    "package": {
-      "name": "7_1"
-    },
-    "meta": {
-      "link": "https://git.kernel.org/stable/h/v7.1.13",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.1.13.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.1.13"
-    },
-    "version": "7.1.13.0"
-  },
-  {
     "category": "stable",
     "checksum": "12e8d5a973d1ad7c5a5c69882e4022b131ed715db7003fdcd760ddf8c3e51941",
     "date": "2026-09-25",
