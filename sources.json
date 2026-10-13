@@ -106,7 +106,7 @@
   },
   {
     "category": "mainline",
-    "checksum": "38b5e49babee7cd29517f5df5b375c1aca6960063e9cd57464bc3c3775b67f98",
+    "checksum": "f789fc0d7b3713b6be23284f2a9c35bf41fb86785b24cfcc506c20d8ff712523",
     "date": "2026-10-12",
     "url": "https://git.kernel.org/torvalds/t/linux-7.3-rc7.tar.gz",
     "package": {
