@@ -1,108 +1,108 @@
 [
   {
     "category": "longterm",
-    "checksum": "a1b8dfbc0c533694d474caeb156cee47992781e6832ab108bd4266b48ccc252f",
-    "date": "2026-10-03",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.271.tar.xz",
+    "checksum": "e7e6e7db0fc009fa223ed10bb37be059042c463593f35f50b5c5cc4a70351614",
+    "date": "2026-10-15",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.272.tar.xz",
     "package": {
       "name": "5_10"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v5.10.271",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.271.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.10.271"
+      "link": "https://git.kernel.org/stable/h/v5.10.272",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.10.272.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.10.272"
     },
-    "version": "5.10.271"
+    "version": "5.10.272"
   },
   {
     "category": "longterm",
-    "checksum": "4d6ec07679bd008524391cb67597106018646c6378b3953c23ec69b9259cdf84",
-    "date": "2026-10-03",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.222.tar.xz",
+    "checksum": "c1faba89652ec4af585fb96131fdb70d99e891c2b368cbf6d9c1e5fb7f156c23",
+    "date": "2026-10-15",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.223.tar.xz",
     "package": {
       "name": "5_15"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v5.15.222",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.222.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.222"
+      "link": "https://git.kernel.org/stable/h/v5.15.223",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.223.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v5.x/ChangeLog-5.15.223"
     },
-    "version": "5.15.222"
+    "version": "5.15.223"
   },
   {
     "category": "longterm",
-    "checksum": "3ec834a2fefc9a08aac62f993525d7acd10163db6f01d63b4549cbff3f5c9439",
-    "date": "2026-10-03",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.189.tar.xz",
+    "checksum": "8aa50daca0412a3d0a61a87af3744f39773d40b3132635fb7bc9be652cdb7b0c",
+    "date": "2026-10-15",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.190.tar.xz",
     "package": {
       "name": "6_1"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.1.189",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.189.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.189"
+      "link": "https://git.kernel.org/stable/h/v6.1.190",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.190.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.1.190"
     },
-    "version": "6.1.189"
+    "version": "6.1.190"
   },
   {
     "category": "longterm",
-    "checksum": "164dc9d1f6c93c61a15e1f071c48379b467f2b17c469cce7223471968208ed03",
-    "date": "2026-10-03",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.112.tar.xz",
+    "checksum": "e09b6727e5c521253f0d41694900b9c38fb7604db7d35238a8197aa9f7de2428",
+    "date": "2026-10-15",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.113.tar.xz",
     "package": {
       "name": "6_12"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.12.112",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.112.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.112"
+      "link": "https://git.kernel.org/stable/h/v6.12.113",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.113.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.113"
     },
-    "version": "6.12.112"
+    "version": "6.12.113"
   },
   {
     "category": "longterm",
-    "checksum": "4633bbda2ab95eaf2a7af4041236451d6759c72e6946265531af4b3aacefbf89",
-    "date": "2026-10-11",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.56.tar.xz",
+    "checksum": "5bd9acdc82ec5efc3790ae840e5aaa40dfde7efff261cf6dde902dc570acf98c",
+    "date": "2026-10-15",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.57.tar.xz",
     "package": {
       "name": "6_18"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.18.56",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.56.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.56"
+      "link": "https://git.kernel.org/stable/h/v6.18.57",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.57.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.57"
     },
-    "version": "6.18.56"
+    "version": "6.18.57"
   },
   {
     "category": "longterm",
-    "checksum": "9eb33173b0e04e898d431587c78c47ee6e19e3fdf2ea007323de82af14bb2a4f",
-    "date": "2026-10-03",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.158.tar.xz",
+    "checksum": "7206727244da5d85f4a03758d29e1c0673f2f01877793f494c0f3638c46b8fa5",
+    "date": "2026-10-15",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.159.tar.xz",
     "package": {
       "name": "6_6"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.6.158",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.158.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.158"
+      "link": "https://git.kernel.org/stable/h/v6.6.159",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.6.159.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.6.159"
     },
-    "version": "6.6.158"
+    "version": "6.6.159"
   },
   {
     "category": "stable",
-    "checksum": "2feaa70453e91f541be6a5c9078d8168e081af45a3d9718054850538cff2ebf3",
-    "date": "2026-10-11",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.10.tar.xz",
+    "checksum": "fd0fc479f983a8c05313f13e9c36330fe6651cf725396748c40d5cd93fa1e6a4",
+    "date": "2026-10-15",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.11.tar.xz",
     "package": {
       "name": "stable"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v7.2.10",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.10.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.2.10"
+      "link": "https://git.kernel.org/stable/h/v7.2.11",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.11.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.2.11"
     },
-    "version": "7.2.10"
+    "version": "7.2.11"
   },
   {
     "category": "mainline",
