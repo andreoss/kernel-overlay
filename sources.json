@@ -61,18 +61,18 @@
   },
   {
     "category": "longterm",
-    "checksum": "069b19f9032c4dac8149ae4b6520c35debca0f42a9f6d52ee55ba6ca9b818013",
-    "date": "2026-10-21",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.58.tar.xz",
+    "checksum": "53a55ac9863a5547e292b8e381d4e4c2240dd1127d5428a7c44dbc550be23963",
+    "date": "2026-10-26",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.59.tar.xz",
     "package": {
       "name": "6_18"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.18.58",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.58.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.58"
+      "link": "https://git.kernel.org/stable/h/v6.18.59",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.59.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.59"
     },
-    "version": "6.18.58"
+    "version": "6.18.59"
   },
   {
     "category": "longterm",
@@ -91,18 +91,18 @@
   },
   {
     "category": "stable",
-    "checksum": "bb18468a8dc8978aa00caa6446e753f7b6da3fee56b6b7f38b16f9430ba02d4f",
-    "date": "2026-10-21",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.12.tar.xz",
+    "checksum": "08e7b0c4f2dd1971f972da274b5e589a98989390ac56acd7a1a5af922363ea6c",
+    "date": "2026-10-26",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.13.tar.xz",
     "package": {
       "name": "stable"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v7.2.12",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.12.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.2.12"
+      "link": "https://git.kernel.org/stable/h/v7.2.13",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.13.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.2.13"
     },
-    "version": "7.2.12"
+    "version": "7.2.13"
   },
   {
     "category": "mainline",
