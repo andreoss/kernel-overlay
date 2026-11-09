@@ -121,7 +121,7 @@
   },
   {
     "category": "mainline",
-    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "checksum": "010063d5fc7bb3a5f1fb116cff45abe4977e8a8205b7841773505680c7a014bb",
     "date": "2026-11-09",
     "url": "https://git.kernel.org/torvalds/t/linux-7.4-rc2.tar.gz",
     "package": {
