@@ -46,33 +46,33 @@
   },
   {
     "category": "longterm",
-    "checksum": "cb3ed3dfdd47e6ade49dc933db334fd86e24cadee920da612c262b0e9b6a511b",
-    "date": "2026-11-06",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.116.tar.xz",
+    "checksum": "74e99aa5e60e242e0a165fed8cb2ea0d054bf7a401f01861d403d75733456613",
+    "date": "2026-11-10",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.117.tar.xz",
     "package": {
       "name": "6_12"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.12.116",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.116.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.116"
+      "link": "https://git.kernel.org/stable/h/v6.12.117",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.12.117.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.117"
     },
-    "version": "6.12.116"
+    "version": "6.12.117"
   },
   {
     "category": "longterm",
-    "checksum": "490a7aedf1b355c565d3a6c05333ccccb5da82064eca46b590448a7099d7d651",
-    "date": "2026-11-06",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.62.tar.xz",
+    "checksum": "81764a545072d160748beff4d9de2e7d95aa9f16e8261110288f067a2cc61d71",
+    "date": "2026-11-10",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.63.tar.xz",
     "package": {
       "name": "6_18"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v6.18.62",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.62.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.62"
+      "link": "https://git.kernel.org/stable/h/v6.18.63",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.18.63.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.18.63"
     },
-    "version": "6.18.62"
+    "version": "6.18.63"
   },
   {
     "category": "longterm",
@@ -106,18 +106,18 @@
   },
   {
     "category": "stable",
-    "checksum": "79c66dde66cd96877fcde8f7d36aec946b1f423d2b97b5a7b1751b75c764f3d1",
-    "date": "2026-11-06",
-    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.3.3.tar.xz",
+    "checksum": "b11b6df8295e8e991ff040b71aaa4994a8b55caa23b6b092907f195b5840fd1f",
+    "date": "2026-11-10",
+    "url": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.3.4.tar.xz",
     "package": {
       "name": "stable"
     },
     "meta": {
-      "link": "https://git.kernel.org/stable/h/v7.3.3",
-      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.3.3.tar.sign",
-      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.3.3"
+      "link": "https://git.kernel.org/stable/h/v7.3.4",
+      "pgp": "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.3.4.tar.sign",
+      "changelog": "https://cdn.kernel.org/pub/linux/kernel/v7.x/ChangeLog-7.3.4"
     },
-    "version": "7.3.3"
+    "version": "7.3.4"
   },
   {
     "category": "mainline",
