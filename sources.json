@@ -121,7 +121,7 @@
   },
   {
     "category": "mainline",
-    "checksum": "95c0eb4a051dd09983d6b7887bdd9d323559fccda163c627d398c0547b89f961",
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "date": "2026-11-15",
     "url": "https://git.kernel.org/torvalds/t/linux-7.4-rc3.tar.gz",
     "package": {
