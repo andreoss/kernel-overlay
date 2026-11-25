@@ -92,6 +92,26 @@ fn trim_version(version: &str) -> Option<String> {
     None
 }
 
+fn normalize_kernel_version(version: &str) -> String {
+    let mut version = version.to_string();
+    let re_rc = Regex::new(r"(\d+)[.](\d+)[-](\w+)").unwrap();
+    if re_rc.is_match(&version) {
+        version = re_rc.replace(&version, "$1.$2.0-$3").to_string();
+    }
+    let re_plain = Regex::new(r"^[0-9]+[.][0-9]+$").unwrap();
+    if re_plain.is_match(&version) {
+        version = format!("{}.0", version);
+    }
+    version
+}
+
+fn version_from_tarball(tarball: &str) -> Option<String> {
+    let filename = tarball.rsplit('/').next()?;
+    let version = filename.strip_prefix("linux-")?;
+    let (version, _) = version.split_once(".tar")?;
+    Some(normalize_kernel_version(version))
+}
+
 fn first_href(items: &[scraper::ElementRef], idx: usize) -> String {
     if idx >= items.len() {
         return String::new();
@@ -182,12 +202,7 @@ fn cmd_update_sources() -> Result<(), Box<dyn std::error::Error>> {
             continue;
         }
 
-        let version_raw = items[1].text().collect::<String>();
-        let version: String = version_raw
-            .chars()
-            .map(|c| if c == ' ' { '-' } else { c })
-            .filter(|c| !c.is_ascii_punctuation() || *c == '-' || *c == '.')
-            .collect::<String>();
+        let version_label = items[1].text().collect::<String>();
 
         let date = items[2].text().collect::<String>();
         let tarball = first_href(&items, 3);
@@ -202,23 +217,14 @@ fn cmd_update_sources() -> Result<(), Box<dyn std::error::Error>> {
 
         let checksum = checksum(&client, &checksum_url, &tarball);
 
-        let mut version = version;
-        let re_rc = Regex::new(r"(\d+)[.](\d+)[-](\w+)").unwrap();
-        if re_rc.is_match(&version) {
-            version = re_rc.replace(&version, "$1.$2.0-$3").to_string();
-        }
-        let re_plain = Regex::new(r"^[0-9]+[.][0-9]+$").unwrap();
-        if re_plain.is_match(&version) {
-            version = format!("{}.0", version);
-        }
-
-        let pversion = trim_version(&version).unwrap_or_default();
+        let version =
+            version_from_tarball(&tarball).ok_or("Could not parse kernel version from tarball")?;
 
         let mut category = category.clone();
-        if version.to_lowercase().contains("eol") {
-            version = version.to_lowercase().replace("-eol", "");
+        if version_label.to_lowercase().contains("eol") {
             category = "eol".to_string();
         }
+        let pversion = trim_version(&version).unwrap_or_default();
 
         let package_name = if category == "stable" || category == "mainline" {
             category.clone()
@@ -359,5 +365,27 @@ mod tests {
     fn test_trim_version_invalid() {
         assert_eq!(trim_version("rc1"), None);
         assert_eq!(trim_version(""), None);
+    }
+
+    #[test]
+    fn test_version_from_tarball() {
+        assert_eq!(
+            version_from_tarball(
+                "https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.2.15.tar.xz"
+            ),
+            Some("7.2.15".to_string())
+        );
+        assert_eq!(
+            version_from_tarball("https://git.kernel.org/torvalds/t/linux-7.4-rc4.tar.gz"),
+            Some("7.4.0-rc4".to_string())
+        );
+        assert_eq!(
+            version_from_tarball("https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.4.tar.xz"),
+            Some("7.4.0".to_string())
+        );
+        assert_eq!(
+            version_from_tarball("https://kernel.org/patch-7.2.15.xz"),
+            None
+        );
     }
 }
