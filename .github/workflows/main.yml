@@ -47,8 +47,7 @@
         "fail-fast": false,
         "matrix": {
           "channel": [
-            "nixos-unstable",
-            "nixos-25.11"
+            "nixos-unstable"
           ],
           "version": [
             "stable",
