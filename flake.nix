@@ -33,6 +33,9 @@
           p:
           let
             name = mkName "linux" p;
+            linuxPackages = pkgs.recurseIntoAttrs (
+              pkgs.linuxPackagesFor self.outputs.packages.${system}.${name}
+            );
           in
           {
             ${name} = pkgs.linuxKernel.manualConfig {
@@ -48,9 +51,8 @@
                 sha256 = p.checksum;
               };
             };
-            ${mkName "linuxPackages" p} = pkgs.recurseIntoAttrs (
-              pkgs.linuxPackagesFor self.outputs.packages.${system}.${name}
-            );
+            ${mkName "linuxPackages" p} = linuxPackages;
+            ${mkName "linuxPackages_andreoss" p} = linuxPackages;
           };
         kpkgs = merge (map (x: mkLinuxPackages x) sources);
         mkNixos = p: {
